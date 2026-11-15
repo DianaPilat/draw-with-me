@@ -1,0 +1,122 @@
+{
+  "id": "13",
+  "title": "Triangle becomes a Sailboat",
+  "category": "Vehicles",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a sailboat! Start with the bottom of the boat, wide on top and narrow below.",
+      "start": 0,
+      "end": 6.6,
+      "paths": [
+        {
+          "d": "M60 400H340L295 475H105z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add a tall straight mast, and a little flag at the top.",
+      "start": 6.6,
+      "end": 12.6,
+      "paths": [
+        {
+          "d": "M200 400V100",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M200 100V70L240 85z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Two triangle sails, one big and one small.",
+      "start": 12.6,
+      "end": 18.6,
+      "paths": [
+        {
+          "d": "M212 120V375H315z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M188 170V375H100z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Round windows along the side.",
+      "start": 18.6,
+      "end": 24.6,
+      "paths": [
+        {
+          "d": "M138 435a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M188 435a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M238 435a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#a8dadc"
+        }
+      ]
+    },
+    {
+      "narration": "Wavy lines for the sea.",
+      "start": 24.6,
+      "end": 30.6,
+      "paths": [
+        {
+          "d": "M0 505q25 -25 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0",
+          "stroke": "#0077b6"
+        },
+        {
+          "d": "M0 550q25 -25 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0",
+          "stroke": "#0077b6"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A sunny sky, white sails and a deep blue sea.",
+      "start": 30.6,
+      "end": 38.6,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M299 110a36 36 0 1 0 72 0a36 36 0 1 0 -72 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M212 120V375H315z",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M188 170V375H100z",
+          "fill": "#ffd166"
+        },
+        {
+          "d": "M60 400H340L295 475H105z",
+          "fill": "#bc6c25"
+        },
+        {
+          "d": "M200 100V70L240 85z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M0 505q25 -25 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0V600H0z",
+          "fill": "#48cae4"
+        }
+      ]
+    }
+  ],
+  "audio": "13.m4a"
+}

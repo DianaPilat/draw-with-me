@@ -1,0 +1,141 @@
+{
+  "id": "44",
+  "title": "S becomes a Snake",
+  "category": "Animals",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a snake! Draw a big, fat letter S.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M300 130C150 90 80 200 190 275C320 355 300 480 110 490",
+          "stroke": "#023047",
+          "width": 64
+        },
+        {
+          "d": "M300 130C150 90 80 200 190 275C320 355 300 480 110 490",
+          "stroke": "#52b788",
+          "width": 56
+        }
+      ]
+    },
+    {
+      "narration": "A round head at the top, with two eyes.",
+      "start": 8,
+      "end": 16,
+      "paths": [
+        {
+          "d": "M274 125a38 38 0 1 0 76 0a38 38 0 1 0 -76 0",
+          "stroke": "#023047",
+          "fill": "#52b788"
+        },
+        {
+          "d": "M318 110a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M325 111a3 3 0 1 0 6 0a3 3 0 1 0 -6 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M318 140a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M325 141a3 3 0 1 0 6 0a3 3 0 1 0 -6 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A long forked tongue.",
+      "start": 16,
+      "end": 22,
+      "paths": [
+        {
+          "d": "M350 128L380 126",
+          "stroke": "#e63946",
+          "width": 5
+        },
+        {
+          "d": "M380 126L395 116",
+          "stroke": "#e63946",
+          "width": 5
+        },
+        {
+          "d": "M380 126L395 136",
+          "stroke": "#e63946",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "narration": "Yellow spots along its back.",
+      "start": 22,
+      "end": 30,
+      "paths": [
+        {
+          "d": "M194 125a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M137 159a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M130 215a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M180 275a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M249 341a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M260 409a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M211 463a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A green snake in the warm sun.",
+      "start": 30,
+      "end": 36,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#fff3b0"
+        },
+        {
+          "d": "M0 540H400V600H0z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M30 70a40 40 0 1 0 80 0a40 40 0 1 0 -80 0",
+          "fill": "#ffb703"
+        }
+      ]
+    }
+  ],
+  "audio": "44.m4a"
+}

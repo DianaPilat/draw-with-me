@@ -1,0 +1,146 @@
+{
+  "id": "43",
+  "title": "Q becomes a Magnifying Glass",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a magnifying glass! Draw a big letter Q: a circle with a little tail.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M70 230a110 110 0 1 0 220 0a110 110 0 1 0 -220 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M258 308L300 350",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Make the rim thick and silver, and the handle long and brown.",
+      "start": 8,
+      "end": 17,
+      "paths": [
+        {
+          "d": "M70 230a110 110 0 1 0 220 0a110 110 0 1 0 -220 0",
+          "stroke": "#023047",
+          "width": 22
+        },
+        {
+          "d": "M70 230a110 110 0 1 0 220 0a110 110 0 1 0 -220 0",
+          "stroke": "#adb5bd",
+          "width": 14
+        },
+        {
+          "d": "M262 312L350 400",
+          "stroke": "#023047",
+          "width": 42
+        },
+        {
+          "d": "M262 312L350 400",
+          "stroke": "#8d5524",
+          "width": 34
+        }
+      ]
+    },
+    {
+      "narration": "Look closely! A big ladybug is hiding under the glass.",
+      "start": 17,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M135 245a45 55 0 1 0 90 0a45 55 0 1 0 -90 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M158 180a22 22 0 1 0 44 0a22 22 0 1 0 -44 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M180 192V300",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M151 228a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M191 228a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M155 268a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M189 268a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Little legs and two curly antennae.",
+      "start": 26,
+      "end": 34,
+      "paths": [
+        {
+          "d": "M138 220L108 208",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M138 250L106 252",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M142 280L115 298",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M222 220L252 208",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M222 250L254 252",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M218 280L245 298",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M172 162Q165 140 150 135",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M188 162Q195 140 210 135",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A glass lens on a warm yellow table.",
+      "start": 34,
+      "end": 40,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#fff3b0"
+        },
+        {
+          "d": "M70 230a110 110 0 1 0 220 0a110 110 0 1 0 -220 0",
+          "fill": "#e0fbfc"
+        }
+      ]
+    }
+  ],
+  "audio": "43.m4a"
+}

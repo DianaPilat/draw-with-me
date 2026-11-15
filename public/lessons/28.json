@@ -1,0 +1,100 @@
+{
+  "id": "28",
+  "title": "2 becomes a Swan",
+  "category": "Animals",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a swan! Draw a big, fat number two. The top is the long neck.",
+      "start": 0,
+      "end": 9,
+      "paths": [
+        {
+          "d": "M130 190C130 110 270 110 270 195C270 270 170 340 120 440H290",
+          "stroke": "#023047",
+          "width": 30
+        },
+        {
+          "d": "M130 190C130 110 270 110 270 195C270 270 170 340 120 440H290",
+          "stroke": "#ffffff",
+          "width": 22
+        }
+      ]
+    },
+    {
+      "narration": "Draw a round body on top of the line at the bottom.",
+      "start": 9,
+      "end": 15,
+      "paths": [
+        {
+          "d": "M155 383C200 345 300 350 340 400C350 425 330 440 290 440",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A wing on the side.",
+      "start": 15,
+      "end": 21,
+      "paths": [
+        {
+          "d": "M200 395Q245 375 290 405Q250 430 200 395z",
+          "stroke": "#023047",
+          "fill": "#e0f4ff"
+        }
+      ]
+    },
+    {
+      "narration": "Give the swan an orange beak and a little eye.",
+      "start": 21,
+      "end": 27,
+      "paths": [
+        {
+          "d": "M118 183L82 195L118 207z",
+          "stroke": "#023047",
+          "fill": "#fb8500"
+        },
+        {
+          "d": "M134 185a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Wavy lines for the water.",
+      "start": 27,
+      "end": 33,
+      "paths": [
+        {
+          "d": "M0 495q25 -25 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0",
+          "stroke": "#0077b6"
+        },
+        {
+          "d": "M0 540q25 -25 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0",
+          "stroke": "#0077b6"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A white swan on a sparkling blue pond.",
+      "start": 33,
+      "end": 39,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M0 455q25 -25 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0V600H0z",
+          "fill": "#48cae4"
+        },
+        {
+          "d": "M155 383C200 345 300 350 340 400C350 425 330 440 290 440H120z",
+          "fill": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "audio": "28.m4a"
+}

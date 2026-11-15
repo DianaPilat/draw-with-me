@@ -1,0 +1,112 @@
+{
+  "id": "29",
+  "title": "3 becomes a Butterfly",
+  "category": "Animals",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a butterfly! Draw a number three. It makes two wings.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M215 170C330 110 345 260 215 290C345 310 345 470 215 430",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now draw another three, facing the other way, for the other two wings.",
+      "start": 6,
+      "end": 12,
+      "paths": [
+        {
+          "d": "M215 170C100 110 85 260 215 290C85 310 85 470 215 430",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A long body in the middle.",
+      "start": 12,
+      "end": 18,
+      "paths": [
+        {
+          "d": "M201 300a14 100 0 1 0 28 0a14 100 0 1 0 -28 0",
+          "stroke": "#023047",
+          "fill": "#5c4033"
+        }
+      ]
+    },
+    {
+      "narration": "Two curly antennae.",
+      "start": 18,
+      "end": 24,
+      "paths": [
+        {
+          "d": "M210 202Q195 150 170 135",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M220 202Q235 150 260 135",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Round spots on every wing.",
+      "start": 24,
+      "end": 30,
+      "paths": [
+        {
+          "d": "M253 215a22 22 0 1 0 44 0a22 22 0 1 0 -44 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M133 215a22 22 0 1 0 44 0a22 22 0 1 0 -44 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M264 365a18 18 0 1 0 36 0a18 18 0 1 0 -36 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M130 365a18 18 0 1 0 36 0a18 18 0 1 0 -36 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! An orange and yellow butterfly in a green garden.",
+      "start": 30,
+      "end": 36,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#b7e4c7"
+        },
+        {
+          "d": "M215 170C330 110 345 260 215 290z",
+          "fill": "#ff9f1c"
+        },
+        {
+          "d": "M215 170C100 110 85 260 215 290z",
+          "fill": "#ff9f1c"
+        },
+        {
+          "d": "M215 290C345 310 345 470 215 430z",
+          "fill": "#ffd166"
+        },
+        {
+          "d": "M215 290C85 310 85 470 215 430z",
+          "fill": "#ffd166"
+        }
+      ]
+    }
+  ],
+  "audio": "29.m4a"
+}

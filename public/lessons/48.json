@@ -1,0 +1,143 @@
+{
+  "id": "48",
+  "title": "X becomes a Treasure Map",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a pirate treasure map! Draw a big letter X. X marks the spot!",
+      "start": 0,
+      "end": 6.7,
+      "paths": [
+        {
+          "d": "M150 330L260 440",
+          "stroke": "#023047",
+          "width": 24
+        },
+        {
+          "d": "M150 330L260 440",
+          "stroke": "#e63946",
+          "width": 16
+        },
+        {
+          "d": "M260 330L150 440",
+          "stroke": "#023047",
+          "width": 24
+        },
+        {
+          "d": "M260 330L150 440",
+          "stroke": "#e63946",
+          "width": 16
+        }
+      ]
+    },
+    {
+      "narration": "Draw the old, wavy map around it.",
+      "start": 6.7,
+      "end": 14.7,
+      "paths": [
+        {
+          "d": "M50 100Q200 75 350 100Q372 300 350 500Q200 525 50 500Q28 300 50 100z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A dotted path leads to the treasure.",
+      "start": 14.7,
+      "end": 20.7,
+      "paths": [
+        {
+          "d": "M76 450a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M68 415a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M81 385a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M101 365a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M121 352a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A little island with a palm tree.",
+      "start": 20.7,
+      "end": 28.7,
+      "paths": [
+        {
+          "d": "M235 250a55 16 0 1 0 110 0a55 16 0 1 0 -110 0",
+          "stroke": "#023047",
+          "fill": "#e9c46a"
+        },
+        {
+          "d": "M290 245Q283 205 300 165",
+          "stroke": "#8d5524",
+          "width": 8
+        },
+        {
+          "d": "M300 165Q270 140 245 160",
+          "stroke": "#2d6a4f",
+          "width": 7
+        },
+        {
+          "d": "M300 165Q325 135 345 155",
+          "stroke": "#2d6a4f",
+          "width": 7
+        },
+        {
+          "d": "M300 165Q300 130 285 115",
+          "stroke": "#2d6a4f",
+          "width": 7
+        }
+      ]
+    },
+    {
+      "narration": "Wavy sea lines.",
+      "start": 28.7,
+      "end": 34.7,
+      "paths": [
+        {
+          "d": "M70 170q10 -10 20 0t20 0t20 0",
+          "stroke": "#0077b6",
+          "width": 4
+        },
+        {
+          "d": "M80 200q10 -10 20 0t20 0",
+          "stroke": "#0077b6",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "narration": "Color time! Old yellow paper on the deep blue sea.",
+      "start": 34.7,
+      "end": 40.7,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#48cae4"
+        },
+        {
+          "d": "M50 100Q200 75 350 100Q372 300 350 500Q200 525 50 500Q28 300 50 100z",
+          "fill": "#f1dca7"
+        }
+      ]
+    }
+  ],
+  "audio": "48.m4a"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "25",
+  "title": "Square becomes a Castle",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a castle! Start with the middle wall, with square bumps on the top.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M120 500V300H150V325H175V300H225V325H250V300H280V500z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Two tall towers, one on each side.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M40 500V240H120V500",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M280 500V240H360V500",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A pointy triangle roof on top of each tower.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M30 240L80 150L130 240z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M270 240L320 150L370 240z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A flag on each roof.",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M80 150V105",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M80 105L110 117L80 129z",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M320 150V105",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M320 105L350 117L320 129z",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        }
+      ]
+    },
+    {
+      "narration": "A big arched door, and a tall window in each tower.",
+      "start": 26,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M170 500V440Q170 400 200 400Q230 400 230 440V500z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M70 300h20v40h-20z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M310 300h20v40h-20z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A gray stone castle with red roofs.",
+      "start": 32,
+      "end": 40,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M0 500H400V600H0z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M120 500V300H150V325H175V300H225V325H250V300H280V500z",
+          "fill": "#ced4da"
+        },
+        {
+          "d": "M40 500V240H120V500z",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M280 500V240H360V500z",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M30 240L80 150L130 240z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M270 240L320 150L370 240z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M170 500V440Q170 400 200 400Q230 400 230 440V500z",
+          "fill": "#6f4518"
+        },
+        {
+          "d": "M70 300h20v40h-20z",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M310 300h20v40h-20z",
+          "fill": "#343a40"
+        }
+      ]
+    }
+  ],
+  "audio": "25.m4a"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "45",
+  "title": "U becomes a Magnet",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a magnet! Draw a big, fat letter U.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M110 120V380A90 90 0 0 0 290 380V120",
+          "stroke": "#023047",
+          "width": 70
+        },
+        {
+          "d": "M110 120V380A90 90 0 0 0 290 380V120",
+          "stroke": "#e63946",
+          "width": 62
+        }
+      ]
+    },
+    {
+      "narration": "Two lines across the ends show where the magnetic part is.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M79 175H141",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M259 175H321",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Little iron balls are jumping up to the magnet!",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M120 70a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M190 45a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M260 70a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M77 50a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M307 45a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        }
+      ]
+    },
+    {
+      "narration": "Curved lines show the magnetic pull.",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M130 100Q200 40 270 100",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M100 85Q200 -20 300 85",
+          "stroke": "#023047",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A magnet on a light blue background.",
+      "start": 26,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        }
+      ]
+    }
+  ],
+  "audio": "45.m4a"
+}

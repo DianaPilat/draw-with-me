@@ -1,0 +1,84 @@
+{
+  "id": "32",
+  "title": "6 becomes Cherries",
+  "category": "Food",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw cherries! Draw a big number six. The round part is a cherry.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M290 120C190 140 120 250 120 400a85 85 0 1 0 170 0a85 85 0 1 0 -170 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Draw a second, smaller cherry next to it.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M290 455a50 50 0 1 0 100 0a50 50 0 1 0 -100 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A second stem, joining the first one at the top.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M340 405Q350 240 290 120",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "And a leaf where the stems meet.",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M290 120Q340 70 380 100Q340 140 290 120z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! Two juicy red cherries and a green leaf.",
+      "start": 26,
+      "end": 34,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#fff0f3"
+        },
+        {
+          "d": "M120 400a85 85 0 1 0 170 0a85 85 0 1 0 -170 0",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M290 455a50 50 0 1 0 100 0a50 50 0 1 0 -100 0",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M153 370a12 22 0 1 0 24 0a12 22 0 1 0 -24 0",
+          "fill": "#ff8fa3"
+        },
+        {
+          "d": "M317 440a8 15 0 1 0 16 0a8 15 0 1 0 -16 0",
+          "fill": "#ff8fa3"
+        },
+        {
+          "d": "M290 120Q340 70 380 100Q340 140 290 120z",
+          "fill": "#52b788"
+        }
+      ]
+    }
+  ],
+  "audio": "32.m4a"
+}

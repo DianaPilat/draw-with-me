@@ -1,0 +1,90 @@
+{
+  "id": "35",
+  "title": "A becomes a Tent",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a tent! Draw a big letter A.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M90 500L200 140L310 500",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M125 400H275",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A little round window in the roof.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M178 300a22 22 0 1 0 44 0a22 22 0 1 0 -44 0",
+          "stroke": "#023047",
+          "fill": "#a8dadc"
+        }
+      ]
+    },
+    {
+      "narration": "A triangle door at the bottom.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M200 400L165 500H235z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A flag on the very top.",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M200 140V90",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M200 90L240 105L200 120z",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! An orange tent on the green grass.",
+      "start": 26,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#caf0f8"
+        },
+        {
+          "d": "M287 95a38 38 0 1 0 76 0a38 38 0 1 0 -76 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M0 500H400V600H0z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M90 500L200 140L310 500z",
+          "fill": "#ff9f1c"
+        },
+        {
+          "d": "M200 400L165 500H235z",
+          "fill": "#7f5539"
+        }
+      ]
+    }
+  ],
+  "audio": "35.m4a"
+}

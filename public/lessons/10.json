@@ -1,0 +1,140 @@
+{
+  "id": "10",
+  "title": "Rectangle becomes a Car",
+  "category": "Vehicles",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a car! Start with a long rectangle with round corners.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M40 400V330Q40 310 60 308H340Q360 310 360 330V400z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add the roof on top, with slanted sides.",
+      "start": 6,
+      "end": 12,
+      "paths": [
+        {
+          "d": "M110 308L150 235H250L300 308",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Two windows, so everybody can look out.",
+      "start": 12,
+      "end": 18,
+      "paths": [
+        {
+          "d": "M132 300L160 247H195V300z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M213 300V247H243L270 300z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now two round wheels, with a little circle in the middle of each.",
+      "start": 18,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M68 400a42 42 0 1 0 84 0a42 42 0 1 0 -84 0",
+          "stroke": "#023047",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M248 400a42 42 0 1 0 84 0a42 42 0 1 0 -84 0",
+          "stroke": "#023047",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M95 400a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M275 400a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        }
+      ]
+    },
+    {
+      "narration": "A round headlight at the front, and a straight road underneath.",
+      "start": 26,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M332 340a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M20 442H380",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A cherry red car on a gray road.",
+      "start": 32,
+      "end": 40,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M0 442H400V600H0z",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M40 400V330Q40 310 60 308H340Q360 310 360 330V400z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M110 308L150 235H250L300 308z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M132 300L160 247H195V300z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M213 300V247H243L270 300z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M68 400a42 42 0 1 0 84 0a42 42 0 1 0 -84 0",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M248 400a42 42 0 1 0 84 0a42 42 0 1 0 -84 0",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M95 400a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M275 400a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M332 340a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "fill": "#ffd60a"
+        }
+      ]
+    }
+  ],
+  "audio": "10.m4a"
+}

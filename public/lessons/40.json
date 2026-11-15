@@ -1,0 +1,103 @@
+{
+  "id": "40",
+  "title": "L becomes a Boot",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a rain boot! Draw a big letter L.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M140 100V470H330",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Draw the front of the boot, with a rounded toe.",
+      "start": 6,
+      "end": 12,
+      "paths": [
+        {
+          "d": "M140 100H215V320Q215 345 235 352L300 375Q330 385 330 430V470",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A thick sole and a heel at the bottom, and a fold at the top.",
+      "start": 12,
+      "end": 18,
+      "paths": [
+        {
+          "d": "M140 445H330",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M140 470V495H200V470",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M140 135H215",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Polka dots all over the boot!",
+      "start": 18,
+      "end": 24,
+      "paths": [
+        {
+          "d": "M165 200a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M170 270a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M250 420a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A sunny yellow boot, splashing in a puddle.",
+      "start": 24,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#bde0fe"
+        },
+        {
+          "d": "M85 505a150 20 0 1 0 300 0a150 20 0 1 0 -300 0",
+          "fill": "#48cae4"
+        },
+        {
+          "d": "M140 100H215V320Q215 345 235 352L300 375Q330 385 330 430V470H140z",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M140 445H330V470H140z",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M140 470V495H200V470z",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M140 100H215V135H140z",
+          "fill": "#e63946"
+        }
+      ]
+    }
+  ],
+  "audio": "40.m4a"
+}

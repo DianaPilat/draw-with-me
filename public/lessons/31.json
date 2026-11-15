@@ -1,0 +1,166 @@
+{
+  "id": "31",
+  "title": "5 becomes a Seahorse",
+  "category": "Animals",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a seahorse! Draw a big, fat number five. The top is her long snout, and the round part is her tummy.",
+      "start": 0,
+      "end": 9,
+      "paths": [
+        {
+          "d": "M280 130H150L135 280C190 250 290 280 290 370C290 470 170 490 120 440",
+          "stroke": "#023047",
+          "width": 44
+        },
+        {
+          "d": "M280 130H150L135 280C190 250 290 280 290 370C290 470 170 490 120 440",
+          "stroke": "#f4a261",
+          "width": 36
+        }
+      ]
+    },
+    {
+      "narration": "Curl the tail at the bottom, round and round.",
+      "start": 9,
+      "end": 15,
+      "paths": [
+        {
+          "d": "M120 440C95 450 80 420 100 400C115 388 135 400 125 415",
+          "stroke": "#023047",
+          "width": 34
+        },
+        {
+          "d": "M120 440C95 450 80 420 100 400C115 388 135 400 125 415",
+          "stroke": "#f4a261",
+          "width": 26
+        }
+      ]
+    },
+    {
+      "narration": "A big round eye, and a spiky crown on her head.",
+      "start": 15,
+      "end": 23,
+      "paths": [
+        {
+          "d": "M140 145a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M148 146a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M135 112L128 80L152 100L165 70L180 100L205 85L200 112z",
+          "stroke": "#023047",
+          "fill": "#ffd166"
+        }
+      ]
+    },
+    {
+      "narration": "Round spots along her tummy.",
+      "start": 23,
+      "end": 29,
+      "paths": [
+        {
+          "d": "M177 269a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#e76f51"
+        },
+        {
+          "d": "M228 280a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#e76f51"
+        },
+        {
+          "d": "M268 314a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#e76f51"
+        },
+        {
+          "d": "M265 430a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#e76f51"
+        },
+        {
+          "d": "M219 461a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#e76f51"
+        },
+        {
+          "d": "M163 464a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#e76f51"
+        }
+      ]
+    },
+    {
+      "narration": "A wavy fin on her back.",
+      "start": 29,
+      "end": 35,
+      "paths": [
+        {
+          "d": "M140 200Q85 190 80 235Q60 250 95 275Q80 300 135 285",
+          "stroke": "#023047",
+          "fill": "#ffd166"
+        }
+      ]
+    },
+    {
+      "narration": "Tall seaweed, and shiny bubbles.",
+      "start": 35,
+      "end": 43,
+      "paths": [
+        {
+          "d": "M50 560q-30 -40 0 -80t0 -80t0 -80",
+          "stroke": "#2d6a4f",
+          "width": 10
+        },
+        {
+          "d": "M350 560q30 -40 0 -80t0 -80",
+          "stroke": "#2d6a4f",
+          "width": 10
+        },
+        {
+          "d": "M320 150a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M344 100a6 6 0 1 0 12 0a6 6 0 1 0 -12 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M312 60a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M53 110a7 7 0 1 0 14 0a7 7 0 1 0 -14 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! An orange seahorse deep in the blue sea.",
+      "start": 43,
+      "end": 49,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#8ecae6"
+        },
+        {
+          "d": "M0 560H400V600H0z",
+          "fill": "#e9c46a"
+        }
+      ]
+    }
+  ],
+  "audio": "31.m4a"
+}

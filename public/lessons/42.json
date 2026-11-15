@@ -1,0 +1,140 @@
+{
+  "id": "42",
+  "title": "P becomes a Parrot",
+  "category": "Animals",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a parrot! Draw a big letter P. The round part is the head.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M150 110V470",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M150 110H230A85 85 0 0 1 230 280H150",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add a curved chest and a body.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M190 280C300 300 300 440 230 470",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M150 470H230",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A big hooked beak, and a round eye.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M312 180Q375 185 365 250Q335 250 314 215z",
+          "stroke": "#023047",
+          "fill": "#fb8500"
+        },
+        {
+          "d": "M228 175a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M238 176a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Colorful feathers on top of the head.",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M200 112L190 70L225 100L240 62L255 105z",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        }
+      ]
+    },
+    {
+      "narration": "A wing on the side, and a branch to sit on.",
+      "start": 26,
+      "end": 34,
+      "paths": [
+        {
+          "d": "M175 330Q250 320 260 430Q200 450 175 330z",
+          "stroke": "#023047",
+          "fill": "#4361ee"
+        },
+        {
+          "d": "M60 480H340",
+          "stroke": "#023047",
+          "width": 20
+        },
+        {
+          "d": "M60 480H340",
+          "stroke": "#8d5524",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "narration": "Three long tail feathers.",
+      "start": 34,
+      "end": 40,
+      "paths": [
+        {
+          "d": "M165 475L150 585",
+          "stroke": "#e63946",
+          "width": 10
+        },
+        {
+          "d": "M190 475V590",
+          "stroke": "#4361ee",
+          "width": 10
+        },
+        {
+          "d": "M215 475L230 585",
+          "stroke": "#52b788",
+          "width": 10
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A bright red parrot in the green jungle.",
+      "start": 40,
+      "end": 48,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#b7e4c7"
+        },
+        {
+          "d": "M150 110H230A85 85 0 0 1 230 280H150z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M150 280H190C300 300 300 440 230 470H150z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M232 218a30 22 0 1 0 60 0a30 22 0 1 0 -60 0",
+          "fill": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "audio": "42.m4a"
+}

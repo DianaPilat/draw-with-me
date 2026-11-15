@@ -1,0 +1,98 @@
+{
+  "id": "47",
+  "title": "W becomes a Crown",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a crown for a king or queen! Draw a big letter W with three points.",
+      "start": 0,
+      "end": 6.2,
+      "paths": [
+        {
+          "d": "M60 200L130 380L200 160L270 380L340 200",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Close the bottom with a straight band.",
+      "start": 6.2,
+      "end": 12.2,
+      "paths": [
+        {
+          "d": "M60 200V470H340V200",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M60 420H340",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Golden balls on the tips of the crown.",
+      "start": 12.2,
+      "end": 18.2,
+      "paths": [
+        {
+          "d": "M48 188a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M186 148a14 14 0 1 0 28 0a14 14 0 1 0 -28 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M328 188a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        }
+      ]
+    },
+    {
+      "narration": "Shiny jewels on the band.",
+      "start": 18.2,
+      "end": 24.2,
+      "paths": [
+        {
+          "d": "M97 445a13 13 0 1 0 26 0a13 13 0 1 0 -26 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M185 445a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "stroke": "#023047",
+          "fill": "#4361ee"
+        },
+        {
+          "d": "M277 445a13 13 0 1 0 26 0a13 13 0 1 0 -26 0",
+          "stroke": "#023047",
+          "fill": "#52b788"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A golden crown for a royal party.",
+      "start": 24.2,
+      "end": 30.2,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#cdb4db"
+        },
+        {
+          "d": "M60 470V200L130 380L200 160L270 380L340 200V470z",
+          "fill": "#ffd166"
+        },
+        {
+          "d": "M60 420H340V470H60z",
+          "fill": "#ffb703"
+        }
+      ]
+    }
+  ],
+  "audio": "47.m4a"
+}

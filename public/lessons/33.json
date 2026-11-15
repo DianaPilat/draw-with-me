@@ -1,0 +1,113 @@
+{
+  "id": "33",
+  "title": "7 becomes a Scooter",
+  "category": "Vehicles",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a scooter! Draw a big number seven. The top is the handlebar and the slanted line is the stem.",
+      "start": 0,
+      "end": 9,
+      "paths": [
+        {
+          "d": "M180 150H300L150 465",
+          "stroke": "#023047",
+          "width": 10
+        }
+      ]
+    },
+    {
+      "narration": "Two grips on the handlebar.",
+      "start": 9,
+      "end": 15,
+      "paths": [
+        {
+          "d": "M165 150H205",
+          "stroke": "#ffd60a",
+          "width": 18
+        },
+        {
+          "d": "M260 150H300",
+          "stroke": "#ffd60a",
+          "width": 18
+        }
+      ]
+    },
+    {
+      "narration": "A flat board to stand on.",
+      "start": 15,
+      "end": 21,
+      "paths": [
+        {
+          "d": "M150 455H335V478H150z",
+          "stroke": "#023047",
+          "fill": "#4361ee"
+        }
+      ]
+    },
+    {
+      "narration": "Two round wheels, with a little circle in the middle of each.",
+      "start": 21,
+      "end": 29,
+      "paths": [
+        {
+          "d": "M112 505a38 38 0 1 0 76 0a38 38 0 1 0 -76 0",
+          "stroke": "#023047",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M282 505a38 38 0 1 0 76 0a38 38 0 1 0 -76 0",
+          "stroke": "#023047",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M138 505a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M308 505a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#adb5bd"
+        }
+      ]
+    },
+    {
+      "narration": "Speed lines, and a straight road.",
+      "start": 29,
+      "end": 35,
+      "paths": [
+        {
+          "d": "M30 400H90",
+          "stroke": "#8ecae6",
+          "width": 5
+        },
+        {
+          "d": "M10 430H70",
+          "stroke": "#8ecae6",
+          "width": 5
+        },
+        {
+          "d": "M20 543H380",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A speedy blue scooter on a gray road.",
+      "start": 35,
+      "end": 41,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M0 543H400V600H0z",
+          "fill": "#adb5bd"
+        }
+      ]
+    }
+  ],
+  "audio": "33.m4a"
+}

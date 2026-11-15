@@ -1,0 +1,118 @@
+{
+  "id": "06",
+  "title": "Circle becomes a Sun",
+  "category": "Nature",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a sunny sun! Start with a big round circle.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M110 300a90 90 0 1 0 180 0a90 90 0 1 0 -180 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add eight long rays all around, like a sparkly crown.",
+      "start": 6,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M315 300L365 300",
+          "stroke": "#fb8500",
+          "width": 9
+        },
+        {
+          "d": "M281.3 381.3L316.7 416.7",
+          "stroke": "#fb8500",
+          "width": 9
+        },
+        {
+          "d": "M200 415L200 465",
+          "stroke": "#fb8500",
+          "width": 9
+        },
+        {
+          "d": "M118.7 381.3L83.3 416.7",
+          "stroke": "#fb8500",
+          "width": 9
+        },
+        {
+          "d": "M85 300L35 300",
+          "stroke": "#fb8500",
+          "width": 9
+        },
+        {
+          "d": "M118.7 218.7L83.3 183.3",
+          "stroke": "#fb8500",
+          "width": 9
+        },
+        {
+          "d": "M200 185L200 135",
+          "stroke": "#fb8500",
+          "width": 9
+        },
+        {
+          "d": "M281.3 218.7L316.7 183.3",
+          "stroke": "#fb8500",
+          "width": 9
+        }
+      ]
+    },
+    {
+      "narration": "Now two round eyes.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M161 285a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M221 285a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "And a big happy smile!",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M160 325q40 40 80 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Time to color! A bright yellow sun in a blue sky, with rosy cheeks.",
+      "start": 26,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M110 300a90 90 0 1 0 180 0a90 90 0 1 0 -180 0",
+          "fill": "#ffb703"
+        },
+        {
+          "d": "M135 318a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "fill": "#ff8fab"
+        },
+        {
+          "d": "M235 318a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "fill": "#ff8fab"
+        }
+      ]
+    }
+  ],
+  "audio": "06.m4a"
+}

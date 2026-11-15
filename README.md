@@ -10,11 +10,11 @@ An offline-capable progressive web app (PWA) with step-by-step drawing lessons f
 | 2. Lesson engine: stroke animation, player controls, one sample lesson | Done |
 | 3. Five sample lessons with Piper voice-over | Done |
 | 4. Home screen with categories and progress stars | Done |
-| 5. Remaining lessons (50 total) | Next |
-| 6. iPhone polish, optional draw-along canvas | Planned |
+| 5. Remaining lessons (50 total) | Done |
+| 6. iPhone polish, optional draw-along canvas | Next |
 | 7. Deploy to a static HTTPS host | Planned |
 
-All five lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock. The audio-synced path has not yet been tested in a browser or on an iPhone.
+All 50 lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock. The audio-synced path has not yet been tested in a browser or on an iPhone.
 
 ## Requirements
 
@@ -86,7 +86,7 @@ A lesson is a JSON file in `public/lessons/` (for example `01.json`), listed in 
 ```
 
 - **Paths with `stroke`** are drawn on, one after another, sharing the step's time equally. Optional `width` defaults to 6.
-- **Paths with `fill` and no `stroke`** fade in. They are rendered in a layer under the outlines, so colouring never covers the lines. A path with both fills once its stroke is complete.
+- **Paths with `fill` and no `stroke`** fade in. They are rendered in a layer under the outlines, so colouring never covers the lines. A path with both fills once its stroke is complete, and is layered above the fill-only paths, so details like eyes are not hidden by a body colour listed later.
 - **`audio`** is optional. With it, the animation follows the audio element's clock, so step times should match the voice-over. Without it, a timer drives playback.
 - Lessons are not limited to numbers or animals. Any starting shape and any picture works.
 

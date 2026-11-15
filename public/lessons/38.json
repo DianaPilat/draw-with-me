@@ -1,0 +1,151 @@
+{
+  "id": "38",
+  "title": "H becomes a Ladder",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a ladder! Draw a big letter H. The two tall lines are the sides, and the middle line is a step.",
+      "start": 0,
+      "end": 9,
+      "paths": [
+        {
+          "d": "M120 150V520",
+          "stroke": "#023047",
+          "width": 22
+        },
+        {
+          "d": "M120 150V520",
+          "stroke": "#c08552",
+          "width": 14
+        },
+        {
+          "d": "M280 150V520",
+          "stroke": "#023047",
+          "width": 22
+        },
+        {
+          "d": "M280 150V520",
+          "stroke": "#c08552",
+          "width": 14
+        },
+        {
+          "d": "M120 320H280",
+          "stroke": "#8d5524",
+          "width": 10
+        }
+      ]
+    },
+    {
+      "narration": "Add more steps, evenly spaced, so we can climb up.",
+      "start": 9,
+      "end": 15,
+      "paths": [
+        {
+          "d": "M120 190H280",
+          "stroke": "#8d5524",
+          "width": 10
+        },
+        {
+          "d": "M120 260H280",
+          "stroke": "#8d5524",
+          "width": 10
+        },
+        {
+          "d": "M120 390H280",
+          "stroke": "#8d5524",
+          "width": 10
+        },
+        {
+          "d": "M120 460H280",
+          "stroke": "#8d5524",
+          "width": 10
+        }
+      ]
+    },
+    {
+      "narration": "A cat is stuck at the top! Draw a round head with two pointy ears.",
+      "start": 15,
+      "end": 23,
+      "paths": [
+        {
+          "d": "M155 95a45 45 0 1 0 90 0a45 45 0 1 0 -90 0",
+          "stroke": "#023047",
+          "fill": "#f4a261"
+        },
+        {
+          "d": "M165 70L160 30L190 55z",
+          "stroke": "#023047",
+          "fill": "#f4a261"
+        },
+        {
+          "d": "M235 70L240 30L210 55z",
+          "stroke": "#023047",
+          "fill": "#f4a261"
+        }
+      ]
+    },
+    {
+      "narration": "Two eyes, a little nose and whiskers.",
+      "start": 23,
+      "end": 29,
+      "paths": [
+        {
+          "d": "M180 92a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M210 92a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M195 105h10l-5 7z",
+          "stroke": "#023047",
+          "fill": "#ff8fab"
+        },
+        {
+          "d": "M165 105L135 100",
+          "stroke": "#023047",
+          "width": 3
+        },
+        {
+          "d": "M165 112L135 118",
+          "stroke": "#023047",
+          "width": 3
+        },
+        {
+          "d": "M235 105L265 100",
+          "stroke": "#023047",
+          "width": 3
+        },
+        {
+          "d": "M235 112L265 118",
+          "stroke": "#023047",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A blue sky and green grass.",
+      "start": 29,
+      "end": 35,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M0 520H400V600H0z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M297 95a38 38 0 1 0 76 0a38 38 0 1 0 -76 0",
+          "fill": "#ffd60a"
+        }
+      ]
+    }
+  ],
+  "audio": "38.m4a"
+}

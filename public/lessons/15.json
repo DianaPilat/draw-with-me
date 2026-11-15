@@ -1,0 +1,148 @@
+{
+  "id": "15",
+  "title": "Oval becomes a Rocket",
+  "category": "Vehicles",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a rocket! Start with a tall rounded body with a pointy top.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M200 80C265 140 272 250 270 400H130C128 250 135 140 200 80z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add a round window in the middle.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M162 215a38 38 0 1 0 76 0a38 38 0 1 0 -76 0",
+          "stroke": "#023047",
+          "fill": "#90e0ef"
+        }
+      ]
+    },
+    {
+      "narration": "Two strong fins on the sides.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M133 300L70 390V445L133 395",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M267 300L330 390V445L267 395",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A stripe, and a nozzle at the bottom.",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M131 330H269",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M165 400L175 440H225L235 400",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Whoosh! Flames come out and push the rocket up to the stars.",
+      "start": 26,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M175 445Q200 560 225 445",
+          "stroke": "#fb8500"
+        },
+        {
+          "d": "M190 445Q200 505 210 445",
+          "stroke": "#ffd60a"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A white rocket with red fins, flying in the night sky.",
+      "start": 32,
+      "end": 40,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#3d5a80"
+        },
+        {
+          "d": "M56 100a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M335 160a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M316 60a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M45 250a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M346 320a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M65 520a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M326 520a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M107 40a3 3 0 1 0 6 0a3 3 0 1 0 -6 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M200 80C265 140 272 250 270 400H130C128 250 135 140 200 80z",
+          "fill": "#f8f9fa"
+        },
+        {
+          "d": "M200 80C235 110 250 135 250 160H150C150 135 165 110 200 80z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M133 300L70 390V445L133 395z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M267 300L330 390V445L267 395z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M165 400L175 440H225L235 400z",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M175 445Q200 560 225 445z",
+          "fill": "#fb8500"
+        },
+        {
+          "d": "M190 445Q200 505 210 445z",
+          "fill": "#ffd60a"
+        }
+      ]
+    }
+  ],
+  "audio": "15.m4a"
+}

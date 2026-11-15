@@ -1,0 +1,125 @@
+{
+  "id": "14",
+  "title": "Triangle becomes an Ice Cream",
+  "category": "Food",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw an ice cream! Start with a triangle pointing down for the cone.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M125 310L200 545L275 310z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Criss cross lines make the crunchy waffle.",
+      "start": 6,
+      "end": 12,
+      "paths": [
+        {
+          "d": "M150 365L215 440",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M250 365L185 440",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M175 330L235 395",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M225 330L165 395",
+          "stroke": "#023047",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "narration": "A big round scoop on top, with wavy melting edges.",
+      "start": 12,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M120 300C115 210 150 175 200 175C250 175 285 210 280 300Q260 320 240 300Q220 320 200 300Q180 320 160 300Q140 320 120 300z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A cherry on the very top!",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M184 155a16 16 0 1 0 32 0a16 16 0 1 0 -32 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M200 140Q205 115 225 105",
+          "stroke": "#2d6a4f"
+        }
+      ]
+    },
+    {
+      "narration": "Sprinkles! Little colorful dashes all over.",
+      "start": 26,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M160 240l12 -8",
+          "stroke": "#4361ee",
+          "width": 5
+        },
+        {
+          "d": "M215 225l12 8",
+          "stroke": "#ffd60a",
+          "width": 5
+        },
+        {
+          "d": "M245 255l12 -8",
+          "stroke": "#52b788",
+          "width": 5
+        },
+        {
+          "d": "M180 275l12 8",
+          "stroke": "#e63946",
+          "width": 5
+        },
+        {
+          "d": "M225 280l12 -8",
+          "stroke": "#4361ee",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A pink scoop on a golden cone.",
+      "start": 32,
+      "end": 38,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M125 310L200 545L275 310z",
+          "fill": "#d4a373"
+        },
+        {
+          "d": "M120 300C115 210 150 175 200 175C250 175 285 210 280 300Q260 320 240 300Q220 320 200 300Q180 320 160 300Q140 320 120 300z",
+          "fill": "#ff8fab"
+        }
+      ]
+    }
+  ],
+  "audio": "14.m4a"
+}

@@ -32,7 +32,12 @@ function timedPaths(lesson: Lesson, time: number): Timed[] {
  */
 export default function LessonCanvas({ lesson, time }: Props) {
   const paths = timedPaths(lesson, time)
-  const fills = paths.filter((p) => p.path.fill)
+  // Fill-only colouring goes first so details that carry their own fill (eyes, spots, windows)
+  // are never hidden by a body colour that is listed later.
+  const fills = [
+    ...paths.filter((p) => p.path.fill && !p.path.stroke),
+    ...paths.filter((p) => p.path.fill && p.path.stroke),
+  ]
   const strokes = paths.filter((p) => p.path.stroke)
   const [, , w, h] = lesson.viewBox.split(' ').map(Number)
 

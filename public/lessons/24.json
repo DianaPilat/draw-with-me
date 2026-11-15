@@ -1,0 +1,159 @@
+{
+  "id": "24",
+  "title": "Oval becomes a Penguin",
+  "category": "Animals",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a penguin! Start with a big tall oval.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M95 330a105 150 0 1 0 210 0a105 150 0 1 0 -210 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A smaller oval on the tummy.",
+      "start": 6,
+      "end": 12,
+      "paths": [
+        {
+          "d": "M130 360a70 110 0 1 0 140 0a70 110 0 1 0 -140 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Two round eyes, with a dark spot in each.",
+      "start": 12,
+      "end": 18,
+      "paths": [
+        {
+          "d": "M149 235a16 16 0 1 0 32 0a16 16 0 1 0 -32 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M219 235a16 16 0 1 0 32 0a16 16 0 1 0 -32 0",
+          "stroke": "#023047",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M164 238a6 6 0 1 0 12 0a6 6 0 1 0 -12 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M224 238a6 6 0 1 0 12 0a6 6 0 1 0 -12 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A small orange beak.",
+      "start": 18,
+      "end": 24,
+      "paths": [
+        {
+          "d": "M180 270L220 270L200 300z",
+          "stroke": "#023047",
+          "fill": "#fb8500"
+        }
+      ]
+    },
+    {
+      "narration": "Two flippers, and a cozy scarf around the neck.",
+      "start": 24,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M97 300Q50 360 85 420",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M303 300Q350 360 315 420",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M98 310Q200 345 302 310",
+          "stroke": "#e63946",
+          "width": 14
+        },
+        {
+          "d": "M265 330L280 385",
+          "stroke": "#e63946",
+          "width": 14
+        }
+      ]
+    },
+    {
+      "narration": "Orange feet to stand on the ice.",
+      "start": 32,
+      "end": 38,
+      "paths": [
+        {
+          "d": "M130 488a30 12 0 1 0 60 0a30 12 0 1 0 -60 0",
+          "stroke": "#023047",
+          "fill": "#fb8500"
+        },
+        {
+          "d": "M210 488a30 12 0 1 0 60 0a30 12 0 1 0 -60 0",
+          "stroke": "#023047",
+          "fill": "#fb8500"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A black and white penguin in a snowy blue world.",
+      "start": 38,
+      "end": 46,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#8ecae6"
+        },
+        {
+          "d": "M0 495H400V600H0z",
+          "fill": "#e0fbfc"
+        },
+        {
+          "d": "M95 330a105 150 0 1 0 210 0a105 150 0 1 0 -210 0",
+          "fill": "#3d405b"
+        },
+        {
+          "d": "M97 300Q50 360 85 420z",
+          "fill": "#3d405b"
+        },
+        {
+          "d": "M303 300Q350 360 315 420z",
+          "fill": "#3d405b"
+        },
+        {
+          "d": "M130 360a70 110 0 1 0 140 0a70 110 0 1 0 -140 0",
+          "fill": "#f8f9fa"
+        },
+        {
+          "d": "M54 120a6 6 0 1 0 12 0a6 6 0 1 0 -12 0",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M334 90a6 6 0 1 0 12 0a6 6 0 1 0 -12 0",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M315 200a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "fill": "#ffffff"
+        },
+        {
+          "d": "M65 250a5 5 0 1 0 10 0a5 5 0 1 0 -10 0",
+          "fill": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "audio": "24.m4a"
+}

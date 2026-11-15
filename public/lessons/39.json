@@ -1,0 +1,136 @@
+{
+  "id": "39",
+  "title": "J becomes an Umbrella",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw an umbrella! Draw a big letter J. This is the handle.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M240 210V470C240 530 170 540 150 490",
+          "stroke": "#023047",
+          "width": 18
+        },
+        {
+          "d": "M240 210V470C240 530 170 540 150 490",
+          "stroke": "#8d5524",
+          "width": 10
+        }
+      ]
+    },
+    {
+      "narration": "Add the round top, with wavy edges.",
+      "start": 6,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M110 210A130 120 0 0 1 370 210Q337 245 305 210Q272 245 240 210Q207 245 175 210Q142 245 110 210z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Two lines from the tip to the edges, and a tiny point on top.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M240 90L175 210",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M240 90L305 210",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M240 90V68",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Rain drops are falling all around!",
+      "start": 20,
+      "end": 28,
+      "paths": [
+        {
+          "d": "M60 120l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M120 70l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M190 30l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M290 40l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M350 90l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M375 170l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M40 230l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M60 320l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M380 300l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M30 410l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A red umbrella on a gray, rainy day.",
+      "start": 28,
+      "end": 34,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M0 548H400V600H0z",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M150 555a90 14 0 1 0 180 0a90 14 0 1 0 -180 0",
+          "fill": "#48cae4"
+        },
+        {
+          "d": "M110 210A130 120 0 0 1 370 210Q337 245 305 210Q272 245 240 210Q207 245 175 210Q142 245 110 210z",
+          "fill": "#e63946"
+        }
+      ]
+    }
+  ],
+  "audio": "39.m4a"
+}

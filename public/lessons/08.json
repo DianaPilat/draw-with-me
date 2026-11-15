@@ -1,0 +1,99 @@
+{
+  "id": "08",
+  "title": "Triangle becomes a Tree",
+  "category": "Nature",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a Christmas tree! Start at the top and zig zag down, like three stacked triangles.",
+      "start": 0,
+      "end": 9,
+      "paths": [
+        {
+          "d": "M200 80L130 210H165L100 340H150L70 470H330L250 340H300L235 210H270z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add a strong trunk at the bottom.",
+      "start": 9,
+      "end": 15,
+      "paths": [
+        {
+          "d": "M175 470v70h50v-70",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Put a shiny star on the very top.",
+      "start": 15,
+      "end": 21,
+      "paths": [
+        {
+          "d": "M200 32L207.6 51.5L228.5 52.7L212.4 66L217.6 86.3L200 75L182.4 86.3L187.6 66L171.5 52.7L192.4 51.5z",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        }
+      ]
+    },
+    {
+      "narration": "Hang round ornaments on the branches.",
+      "start": 21,
+      "end": 29,
+      "paths": [
+        {
+          "d": "M190 170a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M145 290a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#4361ee"
+        },
+        {
+          "d": "M235 290a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M125 415a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M190 395a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#4361ee"
+        },
+        {
+          "d": "M255 415a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A green tree with a brown trunk.",
+      "start": 29,
+      "end": 35,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M200 80L130 210H165L100 340H150L70 470H330L250 340H300L235 210H270z",
+          "fill": "#2d6a4f"
+        },
+        {
+          "d": "M175 470v70h50v-70z",
+          "fill": "#8d5524"
+        }
+      ]
+    }
+  ],
+  "audio": "08.m4a"
+}

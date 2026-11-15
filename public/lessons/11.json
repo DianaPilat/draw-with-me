@@ -1,0 +1,186 @@
+{
+  "id": "11",
+  "title": "Square becomes a Robot",
+  "category": "Characters",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a robot! Start with a big square head.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M110 120H290V270H110z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add two round eyes, and a straight mouth with little teeth.",
+      "start": 6,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M135 185a20 20 0 1 0 40 0a20 20 0 1 0 -40 0",
+          "stroke": "#023047",
+          "fill": "#ffb703"
+        },
+        {
+          "d": "M225 185a20 20 0 1 0 40 0a20 20 0 1 0 -40 0",
+          "stroke": "#023047",
+          "fill": "#ffb703"
+        },
+        {
+          "d": "M155 240H245",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M175 230V250",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M200 230V250",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M225 230V250",
+          "stroke": "#023047",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "narration": "A bendy antenna with a ball on top, and ears on each side.",
+      "start": 14,
+      "end": 22,
+      "paths": [
+        {
+          "d": "M200 120V75",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M187 62a13 13 0 1 0 26 0a13 13 0 1 0 -26 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M90 160h20v60h-20z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M290 160h20v60h-20z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now a big square body.",
+      "start": 22,
+      "end": 28,
+      "paths": [
+        {
+          "d": "M130 285H270V470H130z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Two buttons and a little screen on the chest.",
+      "start": 28,
+      "end": 34,
+      "paths": [
+        {
+          "d": "M157 345a13 13 0 1 0 26 0a13 13 0 1 0 -26 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M217 345a13 13 0 1 0 26 0a13 13 0 1 0 -26 0",
+          "stroke": "#023047",
+          "fill": "#52b788"
+        },
+        {
+          "d": "M165 395h70v45h-70z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Bendy arms with round hands, and strong legs.",
+      "start": 34,
+      "end": 42,
+      "paths": [
+        {
+          "d": "M130 315H85V400",
+          "stroke": "#023047",
+          "width": 10
+        },
+        {
+          "d": "M270 315H315V400",
+          "stroke": "#023047",
+          "width": 10
+        },
+        {
+          "d": "M70 415a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "stroke": "#023047",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M300 415a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "stroke": "#023047",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M150 470v60h40v-60",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M210 470v60h40v-60",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A silver robot in a blue room.",
+      "start": 42,
+      "end": 50,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M110 120H290V270H110z",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M90 160h20v60h-20z",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M290 160h20v60h-20z",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M130 285H270V470H130z",
+          "fill": "#8ecae6"
+        },
+        {
+          "d": "M150 470v60h40v-60z",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M210 470v60h40v-60z",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M165 395h70v45h-70z",
+          "fill": "#caf0f8"
+        }
+      ]
+    }
+  ],
+  "audio": "11.m4a"
+}

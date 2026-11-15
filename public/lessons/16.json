@@ -1,0 +1,111 @@
+{
+  "id": "16",
+  "title": "Circle becomes a Pig",
+  "category": "Animals",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a pig! Start with a big round circle for the face.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M70 300a130 130 0 1 0 260 0a130 130 0 1 0 -260 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add two floppy pointy ears on top.",
+      "start": 6,
+      "end": 12,
+      "paths": [
+        {
+          "d": "M100 217L85 130L165 185",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M300 217L315 130L235 185",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Two round eyes.",
+      "start": 12,
+      "end": 18,
+      "paths": [
+        {
+          "d": "M140 270a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M240 270a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now a big round snout, with two little nostrils.",
+      "start": 18,
+      "end": 24,
+      "paths": [
+        {
+          "d": "M145 335a55 40 0 1 0 110 0a55 40 0 1 0 -110 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M172 335a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M212 335a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "And a happy smile underneath.",
+      "start": 24,
+      "end": 30,
+      "paths": [
+        {
+          "d": "M165 405q35 25 70 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A rosy pink pig.",
+      "start": 30,
+      "end": 36,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M70 300a130 130 0 1 0 260 0a130 130 0 1 0 -260 0",
+          "fill": "#ffafcc"
+        },
+        {
+          "d": "M100 217L85 130L165 185z",
+          "fill": "#ff8fab"
+        },
+        {
+          "d": "M300 217L315 130L235 185z",
+          "fill": "#ff8fab"
+        },
+        {
+          "d": "M145 335a55 40 0 1 0 110 0a55 40 0 1 0 -110 0",
+          "fill": "#ff8fab"
+        }
+      ]
+    }
+  ],
+  "audio": "16.m4a"
+}

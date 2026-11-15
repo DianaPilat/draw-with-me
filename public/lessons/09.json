@@ -1,0 +1,87 @@
+{
+  "id": "09",
+  "title": "Circle becomes an Apple",
+  "category": "Food",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a juicy apple! Make a round shape with a little dip at the top.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M200 190C150 150 70 190 70 300C70 420 150 500 200 480C250 500 330 420 330 300C330 190 250 150 200 190z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add a short stem.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M200 190Q200 140 225 110",
+          "stroke": "#6f4518",
+          "width": 8
+        }
+      ]
+    },
+    {
+      "narration": "And a pretty leaf.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M210 150Q250 100 300 130Q260 175 210 150z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Give the apple a happy face with two eyes and a smile.",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M156 320a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M226 320a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M170 365Q200 395 230 365",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A shiny red apple with a green leaf.",
+      "start": 26,
+      "end": 32,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M200 190C150 150 70 190 70 300C70 420 150 500 200 480C250 500 330 420 330 300C330 190 250 150 200 190z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M101 280a14 38 0 1 0 28 0a14 38 0 1 0 -28 0",
+          "fill": "#ff8fa3"
+        },
+        {
+          "d": "M210 150Q250 100 300 130Q260 175 210 150z",
+          "fill": "#52b788"
+        }
+      ]
+    }
+  ],
+  "audio": "09.m4a"
+}

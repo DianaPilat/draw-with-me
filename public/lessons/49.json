@@ -1,0 +1,103 @@
+{
+  "id": "49",
+  "title": "Y becomes a Tree",
+  "category": "Nature",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw an apple tree! Draw a big, fat letter Y. The bottom is the trunk and the top lines are branches.",
+      "start": 0,
+      "end": 9,
+      "paths": [
+        {
+          "d": "M200 520V360M200 360L110 240M200 360L290 240",
+          "stroke": "#023047",
+          "width": 38
+        },
+        {
+          "d": "M200 520V360M200 360L110 240M200 360L290 240",
+          "stroke": "#8d5524",
+          "width": 30
+        }
+      ]
+    },
+    {
+      "narration": "Draw a big, fluffy cloud of leaves on top.",
+      "start": 9,
+      "end": 17,
+      "paths": [
+        {
+          "d": "M115 260A55 55 0 0 1 80 170A60 60 0 0 1 150 90A65 65 0 0 1 260 85A60 60 0 0 1 325 170A55 55 0 0 1 290 260Q200 290 115 260z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Round red apples hiding in the leaves.",
+      "start": 17,
+      "end": 23,
+      "paths": [
+        {
+          "d": "M128 160a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M208 130a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M258 200a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M168 220a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M98 200a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047",
+          "fill": "#e63946"
+        }
+      ]
+    },
+    {
+      "narration": "A bright sun in the sky.",
+      "start": 23,
+      "end": 29,
+      "paths": [
+        {
+          "d": "M315 70a30 30 0 1 0 60 0a30 30 0 1 0 -60 0",
+          "stroke": "#ffb703"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! Green leaves, a blue sky, and green grass.",
+      "start": 29,
+      "end": 35,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#d8f1ff"
+        },
+        {
+          "d": "M315 70a30 30 0 1 0 60 0a30 30 0 1 0 -60 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M0 520H400V600H0z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M115 260A55 55 0 0 1 80 170A60 60 0 0 1 150 90A65 65 0 0 1 260 85A60 60 0 0 1 325 170A55 55 0 0 1 290 260Q200 290 115 260z",
+          "fill": "#52b788"
+        }
+      ]
+    }
+  ],
+  "audio": "49.m4a"
+}

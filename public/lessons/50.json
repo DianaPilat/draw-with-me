@@ -1,0 +1,106 @@
+{
+  "id": "50",
+  "title": "Z becomes a Lightning Bolt",
+  "category": "Nature",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw lightning! Draw a big, fat letter Z.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M130 240H300L110 410H300",
+          "stroke": "#023047",
+          "width": 44
+        },
+        {
+          "d": "M130 240H300L110 410H300",
+          "stroke": "#ffd60a",
+          "width": 36
+        }
+      ]
+    },
+    {
+      "narration": "Make the bolt long and pointy at the bottom.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M300 410L210 545",
+          "stroke": "#023047",
+          "width": 44
+        },
+        {
+          "d": "M300 410L210 545",
+          "stroke": "#ffd60a",
+          "width": 36
+        }
+      ]
+    },
+    {
+      "narration": "A big storm cloud, right on top of the bolt.",
+      "start": 14,
+      "end": 22,
+      "paths": [
+        {
+          "d": "M90 210Q40 210 50 155Q55 110 105 110Q120 50 190 55Q250 35 290 85Q350 80 355 145Q370 210 310 210z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Rain drops falling down.",
+      "start": 22,
+      "end": 28,
+      "paths": [
+        {
+          "d": "M70 270l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M95 330l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M60 380l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M330 280l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M355 340l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        },
+        {
+          "d": "M335 400l-6 20",
+          "stroke": "#48cae4",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A dark gray cloud in a stormy blue sky.",
+      "start": 28,
+      "end": 34,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#3d5a80"
+        },
+        {
+          "d": "M90 210Q40 210 50 155Q55 110 105 110Q120 50 190 55Q250 35 290 85Q350 80 355 145Q370 210 310 210z",
+          "fill": "#8d99ae"
+        }
+      ]
+    }
+  ],
+  "audio": "50.m4a"
+}

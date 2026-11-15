@@ -1,0 +1,92 @@
+{
+  "id": "37",
+  "title": "C becomes a Crescent Moon",
+  "category": "Nature",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw the moon! Draw a big, fat letter C.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M290 160A150 150 0 1 0 290 440",
+          "stroke": "#023047",
+          "width": 84
+        },
+        {
+          "d": "M290 160A150 150 0 1 0 290 440",
+          "stroke": "#ffd60a",
+          "width": 76
+        }
+      ]
+    },
+    {
+      "narration": "A sleepy face: a closed eye, rosy cheek, and a gentle smile.",
+      "start": 8,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M62 285q12 12 24 0",
+          "stroke": "#023047",
+          "width": 5
+        },
+        {
+          "d": "M52 325a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#ffb4a2",
+          "fill": "#ffb4a2",
+          "width": 2
+        },
+        {
+          "d": "M64 352q12 12 22 0",
+          "stroke": "#023047",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "narration": "Twinkling stars in the night sky.",
+      "start": 14,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M245 232L249.7 243.5L262.1 244.4L252.6 252.5L255.6 264.6L245 258L234.4 264.6L237.4 252.5L227.9 244.4L240.3 243.5z",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M265 346L268.5 355.1L278.3 355.7L270.7 361.9L273.2 371.3L265 366L256.8 371.3L259.3 361.9L251.7 355.7L261.5 355.1z",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M330 280L335.3 292.7L349 293.8L338.6 302.8L341.8 316.2L330 309L318.2 316.2L321.4 302.8L311 293.8L324.7 292.7z",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M320 118L322.9 126L331.4 126.3L324.8 131.5L327.1 139.7L320 135L312.9 139.7L315.2 131.5L308.6 126.3L317.1 126z",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M330 456L333.5 465.1L343.3 465.7L335.7 471.9L338.2 481.3L330 476L321.8 481.3L324.3 471.9L316.7 465.7L326.5 465.1z",
+          "stroke": "#023047",
+          "fill": "#ffd60a"
+        }
+      ]
+    },
+    {
+      "narration": "Color time! A deep blue night.",
+      "start": 20,
+      "end": 26,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#3d5a80"
+        }
+      ]
+    }
+  ],
+  "audio": "37.m4a"
+}
