@@ -11,7 +11,7 @@ An offline-capable progressive web app (PWA) with step-by-step drawing lessons f
 | 3. Five sample lessons with Piper voice-over | Done |
 | 4. Home screen with categories and progress stars | Done |
 | 5. Remaining lessons (50 total) | Done |
-| 6. iPhone polish, optional draw-along canvas | Next |
+| 6. iPhone polish, optional draw-along canvas | Done (not yet tried on a device) |
 | 7. Deploy to a static HTTPS host | Planned |
 
 All 50 lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock. The audio-synced path has not yet been tested in a browser or on an iPhone.

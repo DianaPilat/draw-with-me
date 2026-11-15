@@ -2,6 +2,8 @@ interface Props {
   playing: boolean
   finished: boolean
   stepMode: boolean
+  drawAlong: boolean
+  onDrawAlong: (on: boolean) => void
   onPlay: () => void
   onPause: () => void
   onReplay: () => void
@@ -38,6 +40,14 @@ export default function Controls(p: Props) {
           onChange={(e) => p.onStepMode(e.target.checked)}
         />
         One step at a time
+      </label>
+      <label className="toggle">
+        <input
+          type="checkbox"
+          checked={p.drawAlong}
+          onChange={(e) => p.onDrawAlong(e.target.checked)}
+        />
+        Draw along
       </label>
     </div>
   )
