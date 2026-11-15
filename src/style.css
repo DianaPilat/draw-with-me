@@ -73,9 +73,31 @@ h1 {
   font-weight: bold;
 }
 
-.card-cat {
-  font-size: 0.85rem;
-  opacity: 0.8;
+.stars-total {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.category {
+  margin-top: 20px;
+}
+
+.category h2 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.star {
+  font-size: 1.8rem;
+  line-height: 1;
+  opacity: 0.55;
+}
+
+.star.earned {
+  color: var(--ink);
+  opacity: 1;
 }
 
 /* Lesson */

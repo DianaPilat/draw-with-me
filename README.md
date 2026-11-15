@@ -9,8 +9,8 @@ An offline-capable progressive web app (PWA) with step-by-step drawing lessons f
 | 1. Installable offline shell (React, Vite, Workbox) | Done |
 | 2. Lesson engine: stroke animation, player controls, one sample lesson | Done |
 | 3. Five sample lessons with Piper voice-over | Done |
-| 4. Home screen with categories and progress stars | Next |
-| 5. Remaining lessons (50 total) | Planned |
+| 4. Home screen with categories and progress stars | Done |
+| 5. Remaining lessons (50 total) | Next |
 | 6. iPhone polish, optional draw-along canvas | Planned |
 | 7. Deploy to a static HTTPS host | Planned |
 
@@ -89,6 +89,8 @@ A lesson is a JSON file in `public/lessons/` (for example `01.json`), listed in 
 - **Paths with `fill` and no `stroke`** fade in. They are rendered in a layer under the outlines, so colouring never covers the lines. A path with both fills once its stroke is complete.
 - **`audio`** is optional. With it, the animation follows the audio element's clock, so step times should match the voice-over. Without it, a timer drives playback.
 - Lessons are not limited to numbers or animals. Any starting shape and any picture works.
+
+The home screen groups lessons by `category` (in order of first appearance in `index.json`). A lesson earns a star when it is played to the end; stars are kept in `localStorage` on the device.
 
 To add a lesson, create `public/lessons/NN.json` and add an entry to `index.json`. No code changes are needed.
 

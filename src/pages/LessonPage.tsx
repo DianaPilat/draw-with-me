@@ -4,6 +4,7 @@ import Controls from '../components/Controls'
 import LessonCanvas from '../components/LessonCanvas'
 import { useLessonPlayer } from '../hooks/useLessonPlayer'
 import { loadLesson } from '../lib/lessons'
+import { markDone } from '../lib/progress'
 import type { Lesson } from '../lib/types'
 
 export default function LessonPage() {
@@ -32,6 +33,10 @@ export default function LessonPage() {
 function Player({ lesson }: { lesson: Lesson }) {
   const player = useLessonPlayer(lesson)
   const step = lesson.steps[player.stepIndex]
+
+  useEffect(() => {
+    if (player.finished) markDone(lesson.id)
+  }, [player.finished, lesson.id])
 
   return (
     <main className="page lesson">
