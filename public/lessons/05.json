@@ -1,0 +1,149 @@
+{
+  "id": "05",
+  "title": "Circle becomes a Flower",
+  "category": "Nature",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a flower! Start with a small circle for the middle.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M160 200a40 40 0 1 0 80 0a40 40 0 1 0 -80 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now six round petals, going all the way around the middle.",
+      "start": 6,
+      "end": 16,
+      "paths": [
+        {
+          "d": "M235 200a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M200 260.6a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M130 260.6a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M95 200a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M130 139.4a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M200 139.4a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "A long, wiggly stem going down.",
+      "start": 16,
+      "end": 22,
+      "paths": [
+        {
+          "d": "M200 296C230 380 170 470 200 570",
+          "stroke": "#386641"
+        }
+      ]
+    },
+    {
+      "narration": "Add one leaf on each side of the stem.",
+      "start": 22,
+      "end": 28,
+      "paths": [
+        {
+          "d": "M205 450q60 -70 120 -50q-20 70 -120 50z",
+          "stroke": "#386641"
+        },
+        {
+          "d": "M195 500q-60 -70 -120 -50q20 70 120 50z",
+          "stroke": "#386641"
+        }
+      ]
+    },
+    {
+      "narration": "Give the flower a happy face: two tiny eyes and a big smile.",
+      "start": 28,
+      "end": 35,
+      "paths": [
+        {
+          "d": "M185 192a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M207 192a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M185 210q15 14 30 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now color it in! Pink petals, a yellow middle, green leaves, and a blue sky.",
+      "start": 35,
+      "end": 43,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#e0f4ff"
+        },
+        {
+          "d": "M0 560h400v40h-400z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M205 450q60 -70 120 -50q-20 70 -120 50z",
+          "fill": "#6a994e"
+        },
+        {
+          "d": "M195 500q-60 -70 -120 -50q20 70 120 50z",
+          "fill": "#6a994e"
+        },
+        {
+          "d": "M235 200a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#ff70a6"
+        },
+        {
+          "d": "M200 260.6a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#ff70a6"
+        },
+        {
+          "d": "M130 260.6a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#ff70a6"
+        },
+        {
+          "d": "M95 200a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#ff70a6"
+        },
+        {
+          "d": "M130 139.4a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#ff70a6"
+        },
+        {
+          "d": "M200 139.4a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#ff70a6"
+        },
+        {
+          "d": "M160 200a40 40 0 1 0 80 0a40 40 0 1 0 -80 0",
+          "fill": "#ffd60a"
+        }
+      ]
+    }
+  ],
+  "audio": "05.m4a"
+}

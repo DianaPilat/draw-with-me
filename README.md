@@ -1,6 +1,6 @@
 # Draw with Me
 
-An offline-capable progressive web app (PWA) with step-by-step drawing lessons for kids aged 5-8. Each lesson is an SVG animation that draws a picture stroke by stroke, with a female voice-over planned (not added yet). Built mainly for iPhone, installed to the Home Screen.
+An offline-capable progressive web app (PWA) with step-by-step drawing lessons for kids aged 5-8. Each lesson is an SVG animation that draws a picture stroke by stroke, with a female voice-over. Built mainly for iPhone, installed to the Home Screen.
 
 ## Status
 
@@ -8,13 +8,13 @@ An offline-capable progressive web app (PWA) with step-by-step drawing lessons f
 | --- | --- |
 | 1. Installable offline shell (React, Vite, Workbox) | Done |
 | 2. Lesson engine: stroke animation, player controls, one sample lesson | Done |
-| 3. Five sample lessons with Piper voice-over | Next |
-| 4. Home screen with categories and progress stars | Planned |
+| 3. Five sample lessons with Piper voice-over | Done |
+| 4. Home screen with categories and progress stars | Next |
 | 5. Remaining lessons (50 total) | Planned |
 | 6. iPhone polish, optional draw-along canvas | Planned |
 | 7. Deploy to a static HTTPS host | Planned |
 
-Voice-over audio does not exist yet. Until it does, a timer drives playback. The audio-synced path is written but untested.
+All five lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock. The audio-synced path has not yet been tested in a browser or on an iPhone.
 
 ## Requirements
 
@@ -42,6 +42,16 @@ node tools/check-player.mjs <output-folder>
 ```
 
 It plays lesson 01 at iPhone size, checks step-by-step mode, reloads offline, and saves `mid.png` and `final.png` screenshots to the folder. It takes about a minute.
+
+### Generating a voice-over
+
+Needs Piper (a Python venv with `piper-tts`), the voice model files in one folder, and ffmpeg for m4a output:
+
+```bash
+node tools/make-voice.mjs 01 [--piper-env DIR] [--voices DIR] [--voice NAME]
+```
+
+Defaults: `~/piper-env`, `~/piper-voices`, `en_GB-alba-medium`. Set `FFMPEG` to the ffmpeg binary if it is not on PATH; without ffmpeg a .wav is written instead. The script renders each step's narration, places it at the step start, lengthens any step shorter than its narration (plus 0.7 s), rewrites the lesson's `start`/`end` times and sets `audio`. Re-run it after editing narration.
 
 ### Regenerating icons
 
@@ -86,7 +96,7 @@ To add a lesson, create `public/lessons/NN.json` and add an entry to `index.json
 
 ```
 public/
-  lessons/            lesson JSON (and later m4a audio), index.json
+  lessons/            lesson JSON, m4a audio, index.json
   icon.svg, icon-*.png, apple-touch-icon.png
 src/
   main.tsx            entry, HashRouter, service worker registration
@@ -97,6 +107,7 @@ src/
   lib/                types.ts, lessons.ts (loading)
 tools/
   make-icons.mjs      icon generation
+  make-voice.mjs      Piper voice-over + step timings for a lesson
   check-player.mjs    Playwright smoke test
 vite.config.ts        PWA manifest and Workbox config
 ```

@@ -1,0 +1,132 @@
+{
+  "id": "04",
+  "title": "Square becomes a House",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's build a house! Start with a big square.",
+      "start": 0,
+      "end": 6,
+      "paths": [
+        {
+          "d": "M80 300h240v220h-240z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Put a pointy roof on top, and a tall chimney.",
+      "start": 6,
+      "end": 13,
+      "paths": [
+        {
+          "d": "M60 300L200 170L340 300",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M270 235V175h35v92",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now a tall door in the middle, with a tiny round doorknob.",
+      "start": 13,
+      "end": 20,
+      "paths": [
+        {
+          "d": "M175 520V400h50v120",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M209 465a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add a window on each side. Each window has a cross inside.",
+      "start": 20,
+      "end": 29,
+      "paths": [
+        {
+          "d": "M100 340h50v50h-50z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M125 340v50",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M100 365h50",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M250 340h50v50h-50z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M275 340v50",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M250 365h50",
+          "stroke": "#023047",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "narration": "Draw a big, round, sunny sun in the sky.",
+      "start": 29,
+      "end": 34,
+      "paths": [
+        {
+          "d": "M295 90a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Let's color! A red roof, a brown door, blue windows, and green grass.",
+      "start": 34,
+      "end": 41,
+      "paths": [
+        {
+          "d": "M0 520h400v80h-400z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M80 300h240v220h-240z",
+          "fill": "#ffd6a5"
+        },
+        {
+          "d": "M60 300L200 170L340 300z",
+          "fill": "#d62828"
+        },
+        {
+          "d": "M175 520V400h50v120z",
+          "fill": "#7f5539"
+        },
+        {
+          "d": "M100 340h50v50h-50z",
+          "fill": "#a2d2ff"
+        },
+        {
+          "d": "M250 340h50v50h-50z",
+          "fill": "#a2d2ff"
+        },
+        {
+          "d": "M295 90a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#ffd60a"
+        }
+      ]
+    }
+  ],
+  "audio": "04.m4a"
+}

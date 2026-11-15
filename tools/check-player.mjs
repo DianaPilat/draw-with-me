@@ -23,7 +23,7 @@ await page.waitForSelector('svg.canvas')
 check('lesson page renders', (await page.title()) === 'Draw with Me')
 
 await page.getByRole('button', { name: 'Play' }).click()
-await page.waitForTimeout(12000)
+await page.waitForTimeout(14000)
 await page.screenshot({ path: `${out}/mid.png` })
 const mid = await drawn()
 check(`mid-play: some but not all paths drawn (${mid})`, mid > 2 && mid < 18)

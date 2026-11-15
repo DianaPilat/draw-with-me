@@ -1,0 +1,127 @@
+{
+  "id": "03",
+  "title": "Oval becomes a Fish",
+  "category": "Animals",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a fish! First, a big oval, like an egg lying on its side.",
+      "start": 0,
+      "end": 8,
+      "paths": [
+        {
+          "d": "M60 300a130 85 0 1 0 260 0a130 85 0 1 0 -260 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now a swishy tail on the right side.",
+      "start": 8,
+      "end": 13,
+      "paths": [
+        {
+          "d": "M318 285L385 230V370L318 315",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add a round eye and a little smile.",
+      "start": 13,
+      "end": 19,
+      "paths": [
+        {
+          "d": "M105 275a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
+          "stroke": "#023047",
+          "fill": "#023047"
+        },
+        {
+          "d": "M65 315q15 12 32 4",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Draw two fins, one on top and one underneath, and a curved line for the gills.",
+      "start": 19,
+      "end": 27,
+      "paths": [
+        {
+          "d": "M170 216q25 -60 80 9",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M170 384q25 60 80 -9",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M150 265q-20 35 0 70",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Fish have scales! Draw some little curves. Then add bubbles floating up.",
+      "start": 27,
+      "end": 36,
+      "paths": [
+        {
+          "d": "M200 270q15 15 0 30",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M230 270q15 15 0 30",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M215 310q15 15 0 30",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M48 190a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M27 140a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M54 100a16 16 0 1 0 32 0a16 16 0 1 0 -32 0",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now color it in! A bright orange fish swimming in blue water.",
+      "start": 36,
+      "end": 42,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#bde0fe"
+        },
+        {
+          "d": "M318 285L385 230V370L318 315z",
+          "fill": "#f48c06"
+        },
+        {
+          "d": "M170 216q25 -60 80 9z",
+          "fill": "#f48c06"
+        },
+        {
+          "d": "M170 384q25 60 80 -9z",
+          "fill": "#f48c06"
+        },
+        {
+          "d": "M60 300a130 85 0 1 0 260 0a130 85 0 1 0 -260 0",
+          "fill": "#fb8500"
+        }
+      ]
+    }
+  ],
+  "audio": "03.m4a"
+}
