@@ -4,14 +4,12 @@ interface Props {
   lesson: Lesson
   /** Seconds into the lesson. Infinity renders the finished picture. */
   time: number
-  /** Smaller picture, leaving room for the draw-along pad. */
-  compact?: boolean
 }
 
-/** Width that keeps the picture within a share of the viewport height. */
-export function canvasSize(viewBox: string, compact: boolean) {
+/** Width that keeps the picture within the page's --canvas-h (set in style.css per layout). */
+export function canvasSize(viewBox: string) {
   const [, , w, h] = viewBox.split(' ').map(Number)
-  return `min(100%, calc(${compact ? 28 : 56}dvh * ${w / h}))`
+  return `min(100%, calc(var(--canvas-h) * ${w / h}))`
 }
 
 interface Timed {
@@ -38,7 +36,7 @@ function timedPaths(lesson: Lesson, time: number): Timed[] {
  * Outlines are drawn with a stroke-dashoffset animation (pathLength is normalised to 1).
  * Fills live in a lower layer so colouring never covers the outlines.
  */
-export default function LessonCanvas({ lesson, time, compact = false }: Props) {
+export default function LessonCanvas({ lesson, time }: Props) {
   const paths = timedPaths(lesson, time)
   // Fill-only colouring goes first so details that carry their own fill (eyes, spots, windows)
   // are never hidden by a body colour that is listed later.
@@ -53,7 +51,7 @@ export default function LessonCanvas({ lesson, time, compact = false }: Props) {
     <svg
       className="canvas"
       viewBox={lesson.viewBox}
-      style={{ aspectRatio: `${w} / ${h}`, width: canvasSize(lesson.viewBox, compact) }}
+      style={{ aspectRatio: `${w} / ${h}`, width: canvasSize(lesson.viewBox) }}
       role="img"
       aria-label={lesson.title}
     >

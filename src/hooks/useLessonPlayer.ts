@@ -17,7 +17,7 @@ export function useLessonPlayer(lesson: Lesson) {
   const duration = steps.at(-1)?.end ?? 0
 
   const [time, setTime] = useState(0)
-  const [playing, setPlaying] = useState(true)
+  const [playing, setPlaying] = useState(false)
   const [stepMode, setStepMode] = useState(true)
 
   const audioRef = useRef<HTMLAudioElement | null>(null)

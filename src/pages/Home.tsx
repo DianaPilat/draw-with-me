@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import FullscreenButton from '../components/FullscreenButton'
 import { loadIndex } from '../lib/lessons'
 import { loadDone } from '../lib/progress'
 import type { LessonSummary } from '../lib/types'
@@ -34,6 +35,7 @@ export default function Home() {
 
   return (
     <main className="page home">
+      <FullscreenButton />
       <h1>Draw with Me</h1>
       {lessons.length > 0 && (
         <p className="stars-total" aria-label={`${stars} of ${lessons.length} stars`}>

@@ -38,12 +38,12 @@ export default function DrawPad({ viewBox, size, onClear }: Props) {
   }
 
   return (
-    <div className="pad">
+    <div className="pad" style={{ width: size }}>
       <svg
         ref={svgRef}
         className="canvas pad-surface"
         viewBox={viewBox}
-        style={{ aspectRatio: `${w} / ${h}`, width: size }}
+        style={{ aspectRatio: `${w} / ${h}`, width: '100%' }}
         role="img"
         aria-label="Your drawing"
         onPointerDown={onDown}

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Controls from '../components/Controls'
 import DrawPad from '../components/DrawPad'
+import FullscreenButton from '../components/FullscreenButton'
 import LessonCanvas, { canvasSize } from '../components/LessonCanvas'
 import { useLessonPlayer } from '../hooks/useLessonPlayer'
 import { loadLesson } from '../lib/lessons'
@@ -68,25 +69,28 @@ function Player({ lesson }: { lesson: Lesson }) {
   }, [pause])
 
   return (
-    <main className="page lesson">
+    <main className={drawAlong ? 'page lesson draw-along' : 'page lesson'}>
       <Link to="/" className="back">← Back</Link>
+      <FullscreenButton />
       <h1>{lesson.title}</h1>
-      <LessonCanvas lesson={lesson} time={player.time} compact={drawAlong} />
-      {drawAlong && (
-        <DrawPad viewBox={lesson.viewBox} size={canvasSize(lesson.viewBox, true)} />
-      )}
-      <Controls
-        playing={player.playing}
-        finished={player.finished}
-        stepMode={player.stepMode}
-        drawAlong={drawAlong}
-        onDrawAlong={setDrawAlong}
-        onPlay={player.play}
-        onPause={player.pause}
-        onReplay={player.replay}
-        onNext={player.next}
-        onStepMode={player.setStepMode}
-      />
+      <div className="stage">
+        <LessonCanvas lesson={lesson} time={player.time} />
+        {drawAlong && (
+          <DrawPad viewBox={lesson.viewBox} size={canvasSize(lesson.viewBox)} />
+        )}
+        <Controls
+          playing={player.playing}
+          finished={player.finished}
+          stepMode={player.stepMode}
+          drawAlong={drawAlong}
+          onDrawAlong={setDrawAlong}
+          onPlay={player.play}
+          onPause={player.pause}
+          onReplay={player.replay}
+          onNext={player.next}
+          onStepMode={player.setStepMode}
+        />
+      </div>
     </main>
   )
 }
