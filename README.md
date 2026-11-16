@@ -1,6 +1,20 @@
 # Draw with Me
 
-An offline-capable progressive web app (PWA) with step-by-step drawing lessons for kids aged 5-8. Each lesson is an SVG animation that draws a picture stroke by stroke, with a female voice-over. Built mainly for iPhone, installed to the Home Screen.
+An offline-first progressive web app (PWA) with 50 narrated drawing lessons for kids aged 5-8. Each lesson shows how to draw an animal, vehicle or other object, starting from a geometric shape, number or letter. Lessons are animated SVG drawings, not video, and are described in JSON. Each step has start and end times, and the picture is calculated from the audio's current time, so voice and drawing always stay in sync.
+
+Kids can step through one stage at a time (the default), play the whole lesson, replay, or draw along on a blank pad. The app works offline once loaded and can be installed to the Home Screen. It has no backend and collects no user data.
+
+## Tech stack
+
+- **React 19 + TypeScript (strict)** with custom CSS, built with **Vite**.
+- **Lessons as data:** each lesson is a JSON file of SVG paths and step timings. Adding a lesson needs no code changes.
+- **Playback:** the `<audio>` element's clock drives the animation (a timer is used for lessons without audio). The canvas is a pure function of the current time, so seeking, replay and step mode need no animation state.
+- **Offline / PWA:** a Workbox service worker (via `vite-plugin-pwa`) precaches the app, lesson data and audio. Routing uses `HashRouter`, which works offline on static hosting.
+- **Narration:** generated locally with Piper text-to-speech and ffmpeg (m4a, which iPhone requires).
+- **Draw-along:** a blank pad built on Pointer Events, so touch, stylus and mouse share one implementation.
+- **Progress:** completed lessons are kept in `localStorage` on the device.
+- **Hosting:** Cloudflare, deployed from the `main` branch on GitHub.
+- **Testing:** a Playwright smoke test of the main player flow (see below). Manually tested on desktop, Kindle and iPhone.
 
 ## Status
 
@@ -11,10 +25,10 @@ An offline-capable progressive web app (PWA) with step-by-step drawing lessons f
 | 3. Five sample lessons with Piper voice-over                           | Done                             |
 | 4. Home screen with categories and progress stars                      | Done                             |
 | 5. Remaining lessons (50 total)                                        | Done                             |
-| 6. iPhone polish, optional draw-along canvas                           | Done (not yet tried on a device) |
+| 6. iPhone polish, optional draw-along canvas                           | Done (tested on iPhone, Kindle)  |
 | 7. Deploy to a static HTTPS host                                       | Done                             |
 
-All 50 lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock. The audio-synced path has not yet been tested in a browser or on an iPhone.
+All 50 lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock.
 
 ## Requirements
 
