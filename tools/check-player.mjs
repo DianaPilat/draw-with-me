@@ -22,6 +22,7 @@ await page.getByRole('link', { name: /Snowman/ }).click()
 await page.waitForSelector('svg.canvas')
 check('lesson page renders', (await page.title()) === 'Draw with Me')
 
+await page.getByLabel('Play all at once').check()
 await page.getByRole('button', { name: 'Play' }).click()
 await page.waitForTimeout(14000)
 await page.screenshot({ path: `${out}/mid.png` })
@@ -32,8 +33,8 @@ await page.getByRole('button', { name: 'Start over' }).click()
 await page.getByRole('button', { name: 'Pause' }).click()
 await page.waitForTimeout(200)
 
-// Step mode: should stop after step 1 (2 paths) on its own.
-await page.getByLabel('One step at a time').check()
+// Step mode (default): should stop after step 1 (2 paths) on its own.
+await page.getByLabel('Play all at once').uncheck()
 await page.getByRole('button', { name: 'Start over' }).click()
 await page.waitForTimeout(9500)
 const afterStep1 = await drawn()
@@ -43,8 +44,8 @@ await page.getByRole('button', { name: 'Next step' }).click()
 await page.waitForTimeout(6500)
 check(`step 2 drew hat (${await drawn()} paths)`, (await drawn()) === 4)
 
-// Untick step mode, skip to end by playing through.
-await page.getByLabel('One step at a time').uncheck()
+// Play all at once, skip to end by playing through.
+await page.getByLabel('Play all at once').check()
 await page.getByRole('button', { name: 'Play' }).click()
 await page.waitForTimeout(34000)
 await page.screenshot({ path: `${out}/final.png` })

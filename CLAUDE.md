@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run dev` — Vite dev server
 - `npm run build` — `tsc && vite build` (type-check is part of the build; the tsconfig is strict with `noUnusedLocals`/`noUnusedParameters`)
 - `npm run preview` — serve the production build at http://localhost:4173 (the service worker only exists in a build)
-- `node tools/check-player.mjs [outDir]` — Playwright smoke test; requires `npm run preview` running. Plays lesson 01, saves screenshots, checks step mode, reloads offline.
+- `node tools/check-player.mjs [outDir]` — Playwright smoke test; requires `npm run preview` running. Plays lesson 01, saves screenshots, checks step mode (the default), reloads offline.
 - `node tools/make-icons.mjs` — regenerates the PNG icons in `public/` from `public/icon.svg` (sharp)
 
 There is no linter or unit-test framework.

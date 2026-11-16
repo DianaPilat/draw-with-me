@@ -11,7 +11,7 @@ interface Props {
 /** Width that keeps the picture within a share of the viewport height. */
 export function canvasSize(viewBox: string, compact: boolean) {
   const [, , w, h] = viewBox.split(' ').map(Number)
-  return `min(100%, calc(${compact ? 28 : 46}dvh * ${w / h}))`
+  return `min(100%, calc(${compact ? 28 : 56}dvh * ${w / h}))`
 }
 
 interface Timed {

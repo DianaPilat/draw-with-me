@@ -17,12 +17,12 @@ export function useLessonPlayer(lesson: Lesson) {
   const duration = steps.at(-1)?.end ?? 0
 
   const [time, setTime] = useState(0)
-  const [playing, setPlaying] = useState(false)
-  const [stepMode, setStepMode] = useState(false)
+  const [playing, setPlaying] = useState(true)
+  const [stepMode, setStepMode] = useState(true)
 
   const audioRef = useRef<HTMLAudioElement | null>(null)
   const clock = useRef({ t: 0, last: 0 })
-  const pauseAt = useRef<number | null>(null)
+  const pauseAt = useRef<number | null>(steps[0]?.end ?? null)
 
   useEffect(() => {
     if (!lesson.audio) return

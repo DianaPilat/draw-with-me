@@ -4,15 +4,15 @@ An offline-capable progressive web app (PWA) with step-by-step drawing lessons f
 
 ## Status
 
-| Milestone | State |
-| --- | --- |
-| 1. Installable offline shell (React, Vite, Workbox) | Done |
-| 2. Lesson engine: stroke animation, player controls, one sample lesson | Done |
-| 3. Five sample lessons with Piper voice-over | Done |
-| 4. Home screen with categories and progress stars | Done |
-| 5. Remaining lessons (50 total) | Done |
-| 6. iPhone polish, optional draw-along canvas | Done (not yet tried on a device) |
-| 7. Deploy to a static HTTPS host | Planned |
+| Milestone                                                              | State                            |
+| ---------------------------------------------------------------------- | -------------------------------- |
+| 1. Installable offline shell (React, Vite, Workbox)                    | Done                             |
+| 2. Lesson engine: stroke animation, player controls, one sample lesson | Done                             |
+| 3. Five sample lessons with Piper voice-over                           | Done                             |
+| 4. Home screen with categories and progress stars                      | Done                             |
+| 5. Remaining lessons (50 total)                                        | Done                             |
+| 6. iPhone polish, optional draw-along canvas                           | Done (not yet tried on a device) |
+| 7. Deploy to a static HTTPS host                                       | Done                             |
 
 All 50 lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock. The audio-synced path has not yet been tested in a browser or on an iPhone.
 
@@ -78,7 +78,10 @@ A lesson is a JSON file in `public/lessons/` (for example `01.json`), listed in 
       "start": 0,
       "end": 8,
       "paths": [
-        { "d": "M125 220a75 75 0 1 0 150 0a75 75 0 1 0 -150 0", "stroke": "#023047" }
+        {
+          "d": "M125 220a75 75 0 1 0 150 0a75 75 0 1 0 -150 0",
+          "stroke": "#023047"
+        }
       ]
     }
   ]

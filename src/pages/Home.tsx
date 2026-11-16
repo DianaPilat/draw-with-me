@@ -4,6 +4,17 @@ import { loadIndex } from '../lib/lessons'
 import { loadDone } from '../lib/progress'
 import type { LessonSummary } from '../lib/types'
 
+const CATEGORY_ICONS: Record<string, string> = {
+  Characters: '🤖',
+  Animals: '🐶',
+  Things: '🏠',
+  Nature: '🌳',
+  Food: '🍎',
+  Vehicles: '🚗',
+}
+
+const thumbUrl = (id: string) => `${import.meta.env.BASE_URL}lessons/thumbs/${id}.svg`
+
 export default function Home() {
   const [lessons, setLessons] = useState<LessonSummary[]>([])
   const [done] = useState(loadDone)
@@ -31,11 +42,18 @@ export default function Home() {
       )}
       {groups.map(([category, items]) => (
         <section key={category} className="category">
-          <h2>{category}</h2>
+          <h2>
+            {CATEGORY_ICONS[category] && (
+              <span className="category-icon" aria-hidden="true">
+                {CATEGORY_ICONS[category]}
+              </span>
+            )}
+            {category}
+          </h2>
           <div className="grid">
             {items.map((l) => (
-              <Link key={l.id} to={`/lesson/${l.id}`} className="card">
-                <span className="card-title">{l.title}</span>
+              <Link key={l.id} to={`/lesson/${l.id}`} className="card" aria-label={l.title}>
+                <img className="card-thumb" src={thumbUrl(l.id)} alt="" loading="lazy" />
                 <span
                   className={done.has(l.id) ? 'star earned' : 'star'}
                   role="img"
