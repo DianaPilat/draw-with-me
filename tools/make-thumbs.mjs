@@ -19,7 +19,9 @@ for (const { id } of index) {
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${lesson.viewBox}">` +
     fills.map((p) => `<path d="${p.d}" fill="${p.fill}"/>`).join('') +
     `<g fill="none" stroke-linecap="round" stroke-linejoin="round">` +
-    strokes.map((p) => `<path d="${p.d}" stroke="${p.stroke}" stroke-width="${p.width ?? 6}"/>`).join('') +
+    strokes
+      .map((p) => `<path d="${p.d}" stroke="${p.stroke}" stroke-width="${p.width ?? 6}"/>`)
+      .join('') +
     `</g></svg>`
   writeFileSync(new URL(`${id}.svg`, out), svg)
 }

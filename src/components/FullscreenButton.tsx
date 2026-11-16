@@ -21,8 +21,22 @@ export default function FullscreenButton() {
   }
 
   return (
-    <button className="fullscreen" onClick={toggle} aria-label={full ? 'Exit full screen' : 'Full screen'}>
-      <svg viewBox="0 0 24 24" width="1.4em" height="1.4em" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <button
+      className="fullscreen"
+      onClick={toggle}
+      aria-label={full ? 'Exit full screen' : 'Full screen'}
+    >
+      <svg
+        viewBox="0 0 24 24"
+        width="1.4em"
+        height="1.4em"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
         {full ? (
           <path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" />
         ) : (

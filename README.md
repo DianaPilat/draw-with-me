@@ -4,6 +4,12 @@ An offline-first progressive web app (PWA) with 50 narrated drawing lessons for 
 
 Kids can step through one stage at a time (the default), play the whole lesson, replay, or draw along on a blank pad. The app works offline once loaded and can be installed to the Home Screen. It has no backend and collects no user data.
 
+**Live demo:** https://draw-with-me.dianapilat89.workers.dev/
+
+|             Home              |           Lesson mid-draw            |            Lesson finished            |
+| :---------------------------: | :----------------------------------: | :-----------------------------------: |
+| ![Home screen](docs/home.png) | ![Lesson partly drawn](docs/mid.png) | ![Lesson fully drawn](docs/final.png) |
+
 ## Tech stack
 
 - **React 19 + TypeScript (strict)** with custom CSS, built with **Vite**.
@@ -14,19 +20,47 @@ Kids can step through one stage at a time (the default), play the whole lesson, 
 - **Draw-along:** a blank pad built on Pointer Events, so touch, stylus and mouse share one implementation.
 - **Progress:** completed lessons are kept in `localStorage` on the device.
 - **Hosting:** Cloudflare, deployed from the `main` branch on GitHub.
-- **Testing:** a Playwright smoke test of the main player flow (see below). Manually tested on desktop, Kindle and iPhone.
+- **Quality checks:** ESLint (typescript-eslint, React hooks rules) and Prettier, with a Playwright smoke test of the main player flow (see below). GitHub Actions runs lint, format check, build and the smoke test on every push and pull request. Manually tested on desktop, Kindle and iPhone.
+
+## Design decisions
+
+**Animated SVG instead of video.** A lesson is a list of paths, so it is a few KB of JSON instead of megabytes of video, stays sharp at any screen size, and can be seeked to any point instantly. The cost is that each lesson has to be authored as vector paths rather than recorded.
+
+**The canvas is a pure function of time.** `LessonCanvas` takes the current time and works out how much of every path to show, with no animation state of its own. Seeking, replay, step mode and pausing then need no extra bookkeeping, and the picture cannot drift out of sync with the audio. All timing lives in one place, `useLessonPlayer`.
+
+**The audio element is the clock.** When a lesson has narration, `audio.currentTime` drives playback, so the drawing follows the voice even if the audio stalls or buffers. Lessons without audio fall back to a `requestAnimationFrame` timer.
+
+**Step mode by default.** The player pauses at the end of each step (`pauseAt`), so a child can draw each stage before moving on. "Play all at once" turns it off.
+
+**Lessons are data, not code.** Adding a lesson means adding a JSON file and an entry in `index.json`. That is how the library grew to 50 lessons without code changes.
+
+**Service worker for offline, `localStorage` for progress.** Content is fixed files, which a Workbox service worker precaches. The only user data is the list of finished lessons, which is small enough for `localStorage` (read defensively, since storage can be blocked). IndexedDB would add complexity without a use for it.
+
+**`HashRouter`.** URLs like `/#/lesson/01` work offline and on static hosting without server rewrite rules.
+
+**Local text-to-speech.** Narration is generated with Piper (free, offline, consistent voice) and placed on the timeline by a script, so re-recording a lesson after a text change is one command.
+
+**One input path for draw-along.** The pad uses Pointer Events, so touch, stylus and mouse behave the same.
+
+### Trade-offs and what I would change at scale
+
+- The service worker precaches every lesson and audio file (about 9 MB). That is fine for 50 lessons, but a larger library should cache lessons on demand or per category.
+- Progress lives only on one device. Syncing across devices would need accounts and a backend, which this app deliberately avoids.
+- Lesson paths are written by hand or by script. A larger library needs an authoring tool or import pipeline (see "Planned tooling").
+- Test coverage is one end-to-end smoke test. The timeline logic in `useLessonPlayer` is the first place to add unit tests.
+- ESLint runs against TypeScript 6 and the build against TypeScript 7 (see "Linting and TypeScript versions").
 
 ## Status
 
-| Milestone                                                              | State                            |
-| ---------------------------------------------------------------------- | -------------------------------- |
-| 1. Installable offline shell (React, Vite, Workbox)                    | Done                             |
-| 2. Lesson engine: stroke animation, player controls, one sample lesson | Done                             |
-| 3. Five sample lessons with Piper voice-over                           | Done                             |
-| 4. Home screen with categories and progress stars                      | Done                             |
-| 5. Remaining lessons (50 total)                                        | Done                             |
-| 6. iPhone polish, optional draw-along canvas                           | Done (tested on iPhone, Kindle)  |
-| 7. Deploy to a static HTTPS host                                       | Done                             |
+| Milestone                                                              | State                           |
+| ---------------------------------------------------------------------- | ------------------------------- |
+| 1. Installable offline shell (React, Vite, Workbox)                    | Done                            |
+| 2. Lesson engine: stroke animation, player controls, one sample lesson | Done                            |
+| 3. Five sample lessons with Piper voice-over                           | Done                            |
+| 4. Home screen with categories and progress stars                      | Done                            |
+| 5. Remaining lessons (50 total)                                        | Done                            |
+| 6. iPhone polish, optional draw-along canvas                           | Done (tested on iPhone, Kindle) |
+| 7. Deploy to a static HTTPS host                                       | Done                            |
 
 All 50 lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock.
 
@@ -46,6 +80,18 @@ npm run preview    # serve dist/ at http://localhost:4173
 
 `npm install` may need `--legacy-peer-deps` because of a Babel peer-dependency conflict between `@vitejs/plugin-react` and `vite-plugin-pwa`.
 
+### Linting and formatting
+
+```bash
+npm run lint           # ESLint
+npm run format:check   # Prettier (use `npm run format` to fix)
+npm run check          # lint + format check + type-check/build
+```
+
+### Linting and TypeScript versions
+
+`typescript-eslint` does not support TypeScript 7 yet, so `package.json` follows the side-by-side setup from the TypeScript 7 announcement: the `typescript` package is aliased to `@typescript/typescript6` (used by ESLint), and TypeScript 7 is installed as `@typescript/native`, which provides the `tsc` that `npm run build` runs. The alias can be removed once typescript-eslint supports TS 7.
+
 ### Smoke test
 
 With `npm run preview` running in one terminal:
@@ -55,7 +101,7 @@ npx playwright install chromium   # first time only
 node tools/check-player.mjs <output-folder>
 ```
 
-It plays lesson 01 at iPhone size, checks step-by-step mode, reloads offline, and saves `mid.png` and `final.png` screenshots to the folder. It takes about a minute.
+It plays lesson 01 at iPhone size, checks step-by-step mode, reloads offline, and saves `mid.png` and `final.png` screenshots to the folder. It takes about a minute and exits with a non-zero code if any check fails, which is how CI uses it.
 
 ### Generating a voice-over
 
@@ -129,6 +175,9 @@ tools/
   make-voice.mjs      Piper voice-over + step timings for a lesson
   check-player.mjs    Playwright smoke test
 vite.config.ts        PWA manifest and Workbox config
+eslint.config.js      ESLint rules
+.github/workflows/    CI (lint, format check, build, smoke test)
+docs/                 README screenshots
 ```
 
 ## Offline and iPhone notes

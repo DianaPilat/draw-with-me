@@ -38,7 +38,11 @@ function readWav(buf) {
     const tag = buf.toString('ascii', p, p + 4)
     const size = buf.readUInt32LE(p + 4)
     if (tag === 'fmt ') {
-      fmt = { channels: buf.readUInt16LE(p + 10), rate: buf.readUInt32LE(p + 12), bits: buf.readUInt16LE(p + 22) }
+      fmt = {
+        channels: buf.readUInt16LE(p + 10),
+        rate: buf.readUInt32LE(p + 12),
+        bits: buf.readUInt16LE(p + 22),
+      }
     } else if (tag === 'data') {
       return { ...fmt, pcm: buf.subarray(p + 8, p + 8 + size) }
     }
@@ -97,7 +101,18 @@ writeFileSync(wavPath, Buffer.concat([header, pcm]))
 
 let audio = `${id}.wav`
 const m4aPath = join(root, 'public', 'lessons', `${id}.m4a`)
-const ff = spawnSync(process.env.FFMPEG ?? 'ffmpeg', ['-y', '-loglevel', 'error', '-i', wavPath, '-c:a', 'aac', '-b:a', '64k', m4aPath])
+const ff = spawnSync(process.env.FFMPEG ?? 'ffmpeg', [
+  '-y',
+  '-loglevel',
+  'error',
+  '-i',
+  wavPath,
+  '-c:a',
+  'aac',
+  '-b:a',
+  '64k',
+  m4aPath,
+])
 if (ff.status === 0) {
   rmSync(wavPath)
   audio = `${id}.m4a`

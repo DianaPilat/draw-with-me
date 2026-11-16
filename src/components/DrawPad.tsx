@@ -51,7 +51,13 @@ export default function DrawPad({ viewBox, size, onClear }: Props) {
         onPointerUp={onUp}
         onPointerCancel={onUp}
       >
-        <g fill="none" stroke="#023047" strokeWidth={6} strokeLinecap="round" strokeLinejoin="round">
+        <g
+          fill="none"
+          stroke="#023047"
+          strokeWidth={6}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
           {strokes.map((pts, i) =>
             pts.length === 1 ? (
               <circle key={i} cx={pts[0][0]} cy={pts[0][1]} r={3} fill="#023047" stroke="none" />

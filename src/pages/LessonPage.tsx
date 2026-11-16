@@ -11,19 +11,31 @@ import type { Lesson } from '../lib/types'
 
 export default function LessonPage() {
   const { id = '' } = useParams()
-  const [lesson, setLesson] = useState<Lesson | null>(null)
-  const [failed, setFailed] = useState(false)
+  // The result is tagged with the id it was loaded for, so a stale or in-flight
+  // result for another lesson is treated as "still loading".
+  const [result, setResult] = useState<{ id: string; lesson: Lesson | null } | null>(null)
 
   useEffect(() => {
-    setLesson(null)
-    setFailed(false)
-    loadLesson(id).then(setLesson, () => setFailed(true))
+    let cancelled = false
+    loadLesson(id).then(
+      (lesson) => !cancelled && setResult({ id, lesson }),
+      () => !cancelled && setResult({ id, lesson: null }),
+    )
+    return () => {
+      cancelled = true
+    }
   }, [id])
+
+  const current = result?.id === id ? result : null
+  const lesson = current?.lesson ?? null
+  const failed = current !== null && lesson === null
 
   if (failed) {
     return (
       <main className="page">
-        <Link to="/" className="back">← Back</Link>
+        <Link to="/" className="back">
+          ← Back
+        </Link>
         <p>Oops, we can't find that lesson.</p>
       </main>
     )
@@ -70,14 +82,14 @@ function Player({ lesson }: { lesson: Lesson }) {
 
   return (
     <main className={drawAlong ? 'page lesson draw-along' : 'page lesson'}>
-      <Link to="/" className="back">← Back</Link>
+      <Link to="/" className="back">
+        ← Back
+      </Link>
       <FullscreenButton />
       <h1>{lesson.title}</h1>
       <div className="stage">
         <LessonCanvas lesson={lesson} time={player.time} />
-        {drawAlong && (
-          <DrawPad viewBox={lesson.viewBox} size={canvasSize(lesson.viewBox)} />
-        )}
+        {drawAlong && <DrawPad viewBox={lesson.viewBox} size={canvasSize(lesson.viewBox)} />}
         <Controls
           playing={player.playing}
           finished={player.finished}

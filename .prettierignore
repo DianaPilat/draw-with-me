@@ -1,0 +1,5 @@
+dist
+.wrangler
+shots
+public/lessons
+package-lock.json

@@ -1,14 +1,14 @@
 interface Props {
-  playing: boolean;
-  finished: boolean;
-  stepMode: boolean;
-  drawAlong: boolean;
-  onDrawAlong: (on: boolean) => void;
-  onPlay: () => void;
-  onPause: () => void;
-  onReplay: () => void;
-  onNext: () => void;
-  onStepMode: (on: boolean) => void;
+  playing: boolean
+  finished: boolean
+  stepMode: boolean
+  drawAlong: boolean
+  onDrawAlong: (on: boolean) => void
+  onPlay: () => void
+  onPause: () => void
+  onReplay: () => void
+  onNext: () => void
+  onStepMode: (on: boolean) => void
 }
 
 export default function Controls(p: Props) {
@@ -19,11 +19,7 @@ export default function Controls(p: Props) {
           ↺
         </button>
         {p.playing ? (
-          <button
-            className="btn btn-main"
-            onClick={p.onPause}
-            aria-label="Pause"
-          >
+          <button className="btn btn-main" onClick={p.onPause} aria-label="Pause">
             ❚❚
           </button>
         ) : (
@@ -36,13 +32,7 @@ export default function Controls(p: Props) {
           </button>
         )}
         <button className="btn" onClick={p.onNext} aria-label="Next step">
-          <svg
-            viewBox="0 0 24 24"
-            width="1em"
-            height="1em"
-            fill="currentColor"
-            aria-hidden="true"
-          >
+          <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true">
             <path d="M4 5v14l11-7z" />
             <rect x="17" y="5" width="3" height="14" />
           </svg>
@@ -67,5 +57,5 @@ export default function Controls(p: Props) {
         </label>
       </div>
     </div>
-  );
+  )
 }
