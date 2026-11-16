@@ -21,7 +21,7 @@ interface Timed {
 
 const clamp01 = (n: number) => Math.min(1, Math.max(0, n))
 
-function timedPaths(lesson: Lesson, time: number): Timed[] {
+export function timedPaths(lesson: Lesson, time: number): Timed[] {
   return lesson.steps.flatMap((step, si) => {
     const slice = (step.end - step.start) / step.paths.length
     return step.paths.map((path, pi) => ({

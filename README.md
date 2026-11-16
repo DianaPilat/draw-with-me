@@ -1,5 +1,7 @@
 # Draw with Me
 
+[![CI](https://github.com/DianaPilat/draw-with-me/actions/workflows/ci.yml/badge.svg)](https://github.com/DianaPilat/draw-with-me/actions/workflows/ci.yml)
+
 An offline-first progressive web app (PWA) with 50 narrated drawing lessons for kids aged 5-8. Each lesson shows how to draw an animal, vehicle or other object, starting from a geometric shape, number or letter. Lessons are animated SVG drawings, not video, and are described in JSON. Each step has start and end times, and the picture is calculated from the audio's current time, so voice and drawing always stay in sync.
 
 Kids can step through one stage at a time (the default), play the whole lesson, replay, or draw along on a blank pad. The app works offline once loaded and can be installed to the Home Screen. It has no backend and collects no user data.
@@ -20,7 +22,7 @@ Kids can step through one stage at a time (the default), play the whole lesson, 
 - **Draw-along:** a blank pad built on Pointer Events, so touch, stylus and mouse share one implementation.
 - **Progress:** completed lessons are kept in `localStorage` on the device.
 - **Hosting:** Cloudflare, deployed from the `main` branch on GitHub.
-- **Quality checks:** ESLint (typescript-eslint, React hooks rules) and Prettier, with a Playwright smoke test of the main player flow (see below). GitHub Actions runs lint, format check, build and the smoke test on every push and pull request. Manually tested on desktop, Kindle and iPhone.
+- **Quality checks:** ESLint (typescript-eslint, React hooks rules) and Prettier, Vitest unit tests, and a Playwright smoke test of the main player flow (see below). GitHub Actions runs lint, format check, unit tests, build and the smoke test on every push and pull request. Manually tested on desktop, Kindle and iPhone.
 
 ## Design decisions
 
@@ -47,7 +49,7 @@ Kids can step through one stage at a time (the default), play the whole lesson, 
 - The service worker precaches every lesson and audio file (about 9 MB). That is fine for 50 lessons, but a larger library should cache lessons on demand or per category.
 - Progress lives only on one device. Syncing across devices would need accounts and a backend, which this app deliberately avoids.
 - Lesson paths are written by hand or by script. A larger library needs an authoring tool or import pipeline (see "Planned tooling").
-- Test coverage is one end-to-end smoke test. The timeline logic in `useLessonPlayer` is the first place to add unit tests.
+- The hook `useLessonPlayer` (step boundaries, `pauseAt`, replay, audio clock) has no unit tests yet. Its step-finding logic would need to be extracted into pure functions, or tested with a fake audio element and timers.
 - ESLint runs against TypeScript 6 and the build against TypeScript 7 (see "Linting and TypeScript versions").
 
 ## Status
@@ -85,8 +87,17 @@ npm run preview    # serve dist/ at http://localhost:4173
 ```bash
 npm run lint           # ESLint
 npm run format:check   # Prettier (use `npm run format` to fix)
-npm run check          # lint + format check + type-check/build
+npm test               # Vitest unit tests
+npm run check          # lint + format check + tests + type-check/build
 ```
+
+### Unit tests
+
+Vitest tests live next to the code (`*.test.ts`) and cover:
+
+- `timedPaths` (the pure time-to-drawing function): path ordering, equal slices, step boundaries, seeking backwards.
+- `progress.ts`: duplicates, corrupt or wrong-shaped stored data, and blocked storage.
+- **The shipped lesson content:** all 50 lesson files are validated against the index, for contiguous step times, non-empty paths and narration, a valid `viewBox`, and an audio file that exists. This catches a bad lesson edit before a child opens it.
 
 ### Linting and TypeScript versions
 
