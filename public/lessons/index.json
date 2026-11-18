@@ -1,7 +1,7 @@
 [
   { "id": "01", "title": "8 becomes a Snowman", "category": "Characters" },
   { "id": "02", "title": "Circle becomes a Cat", "category": "Animals" },
-  { "id": "03", "title": "Oval becomes a Fish", "category": "Animals" },
+  { "id": "03", "title": "Rectangle becomes a Monster Truck", "category": "Things" },
   { "id": "04", "title": "Square becomes a House", "category": "Things" },
   { "id": "05", "title": "Circle becomes a Flower", "category": "Nature" },
   { "id": "06", "title": "Circle becomes a Sun", "category": "Nature" },

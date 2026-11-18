@@ -1,102 +1,91 @@
 {
   "id": "03",
-  "title": "Oval becomes a Fish",
-  "category": "Animals",
+  "title": "Rectangle becomes a Monster Truck",
+  "category": "Things",
   "viewBox": "0 0 400 600",
   "steps": [
     {
-      "narration": "Let's draw a fish! First, a big oval, like an egg lying on its side.",
+      "narration": "Let's draw a monster truck! First, a long rectangle for the body.",
       "start": 0,
       "end": 8,
       "paths": [
         {
-          "d": "M60 300a130 85 0 1 0 260 0a130 85 0 1 0 -260 0",
+          "d": "M50 290H350V360H50z",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Now a swishy tail on the right side.",
+      "narration": "Now a cab on top, with a slanted front and back.",
       "start": 8,
       "end": 13,
       "paths": [
         {
-          "d": "M318 285L385 230V370L318 315",
+          "d": "M150 290L172 225H265L295 290",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Add a round eye and a little smile.",
+      "narration": "Add two square windows for the driver to look out of.",
       "start": 13,
       "end": 19,
       "paths": [
         {
-          "d": "M105 275a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
-          "stroke": "#023047",
-          "fill": "#023047"
+          "d": "M178 238H218V280H162z",
+          "stroke": "#023047"
         },
         {
-          "d": "M65 315q15 12 32 4",
+          "d": "M228 238H258V280H228z",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Draw two fins, one on top and one underneath, and a curved line for the gills.",
+      "narration": "Monster trucks have enormous wheels! Draw two big circles, and a smaller circle inside each one.",
       "start": 19,
       "end": 27,
       "paths": [
         {
-          "d": "M170 216q25 -60 80 9",
+          "d": "M50 420a60 60 0 1 0 120 0a60 60 0 1 0 -120 0",
           "stroke": "#023047"
         },
         {
-          "d": "M170 384q25 60 80 -9",
+          "d": "M68 420a42 42 0 1 0 84 0a42 42 0 1 0 -84 0",
           "stroke": "#023047"
         },
         {
-          "d": "M150 265q-20 35 0 70",
+          "d": "M230 420a60 60 0 1 0 120 0a60 60 0 1 0 -120 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M248 420a42 42 0 1 0 84 0a42 42 0 1 0 -84 0",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Fish have scales! Draw some little curves. Then add bubbles floating up.",
+      "narration": "Add a round headlight, a stripe along the side, and the ground underneath.",
       "start": 27,
       "end": 36,
       "paths": [
         {
-          "d": "M200 270q15 15 0 30",
-          "stroke": "#023047",
-          "width": 4
-        },
-        {
-          "d": "M230 270q15 15 0 30",
-          "stroke": "#023047",
-          "width": 4
-        },
-        {
-          "d": "M215 310q15 15 0 30",
-          "stroke": "#023047",
-          "width": 4
-        },
-        {
-          "d": "M48 190a12 12 0 1 0 24 0a12 12 0 1 0 -24 0",
+          "d": "M327 312a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",
           "stroke": "#023047"
         },
         {
-          "d": "M27 140a8 8 0 1 0 16 0a8 8 0 1 0 -16 0",
-          "stroke": "#023047"
+          "d": "M185 325H255",
+          "stroke": "#023047",
+          "width": 4
         },
         {
-          "d": "M54 100a16 16 0 1 0 32 0a16 16 0 1 0 -32 0",
+          "d": "M20 480H380",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Now color it in! A bright orange fish swimming in blue water.",
+      "narration": "Now color it in! A bright red truck driving on brown dirt under a blue sky.",
       "start": 36,
       "end": 42,
       "paths": [
@@ -105,20 +94,44 @@
           "fill": "#bde0fe"
         },
         {
-          "d": "M318 285L385 230V370L318 315z",
-          "fill": "#f48c06"
+          "d": "M0 480h400v120h-400z",
+          "fill": "#9c6644"
         },
         {
-          "d": "M170 216q25 -60 80 9z",
-          "fill": "#f48c06"
+          "d": "M50 290H350V360H50z",
+          "fill": "#d00000"
         },
         {
-          "d": "M170 384q25 60 80 -9z",
-          "fill": "#f48c06"
+          "d": "M150 290L172 225H265L295 290z",
+          "fill": "#d00000"
         },
         {
-          "d": "M60 300a130 85 0 1 0 260 0a130 85 0 1 0 -260 0",
-          "fill": "#fb8500"
+          "d": "M178 238H218V280H162z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M228 238H258V280H228z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M50 420a60 60 0 1 0 120 0a60 60 0 1 0 -120 0",
+          "fill": "#1d1d1d"
+        },
+        {
+          "d": "M230 420a60 60 0 1 0 120 0a60 60 0 1 0 -120 0",
+          "fill": "#1d1d1d"
+        },
+        {
+          "d": "M68 420a42 42 0 1 0 84 0a42 42 0 1 0 -84 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M248 420a42 42 0 1 0 84 0a42 42 0 1 0 -84 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M327 312a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",
+          "fill": "#ffd60a"
         }
       ]
     }
