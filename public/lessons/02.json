@@ -1,131 +1,154 @@
 {
   "id": "02",
-  "title": "Circle becomes a Cat",
-  "category": "Animals",
+  "title": "Rectangle becomes a Fire Truck",
+  "category": "Vehicles",
   "viewBox": "0 0 400 600",
   "steps": [
     {
-      "narration": "Let's draw a cat! Start with a big round circle for the face.",
+      "narration": "Let's draw a fire truck! First, a long rectangle for the body.",
       "start": 0,
-      "end": 7,
+      "end": 8,
       "paths": [
         {
-          "d": "M70 320a130 130 0 1 0 260 0a130 130 0 1 0 -260 0",
+          "d": "M30 300H350V380H30z",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Add two pointy ears on top of the head.",
-      "start": 7,
-      "end": 13,
+      "narration": "Now a cab at the front, with a slanted window and a line to separate it from the back.",
+      "start": 8,
+      "end": 16,
       "paths": [
         {
-          "d": "M95 243L90 120L170 194",
+          "d": "M250 300L268 250H322L350 300",
           "stroke": "#023047"
         },
         {
-          "d": "M305 243L310 120L230 194",
+          "d": "M250 300V380",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M277 262H315L333 292H277z",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Now two round eyes and a little triangle nose.",
-      "start": 13,
-      "end": 20,
+      "narration": "On top, draw a long ladder. A rectangle, then little lines for the steps.",
+      "start": 16,
+      "end": 24,
       "paths": [
         {
-          "d": "M140 300a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
-          "stroke": "#023047",
-          "fill": "#023047"
-        },
-        {
-          "d": "M240 300a10 10 0 1 0 20 0a10 10 0 1 0 -20 0",
-          "stroke": "#023047",
-          "fill": "#023047"
-        },
-        {
-          "d": "M188 335h24l-12 14z",
-          "stroke": "#e56b6f",
-          "fill": "#e56b6f"
-        }
-      ]
-    },
-    {
-      "narration": "Draw a happy smile, and three long whiskers on each side.",
-      "start": 20,
-      "end": 29,
-      "paths": [
-        {
-          "d": "M200 349q-20 25 -40 10",
+          "d": "M45 255H235V275H45z",
           "stroke": "#023047"
         },
         {
-          "d": "M200 349q20 25 40 10",
-          "stroke": "#023047"
-        },
-        {
-          "d": "M120 340L40 325",
-          "stroke": "#023047",
-          "width": 4
-        },
-        {
-          "d": "M120 358L40 365",
-          "stroke": "#023047",
-          "width": 4
-        },
-        {
-          "d": "M280 340L360 325",
-          "stroke": "#023047",
-          "width": 4
-        },
-        {
-          "d": "M280 358L360 365",
+          "d": "M75 255V275M105 255V275M135 255V275M165 255V275M195 255V275",
           "stroke": "#023047",
           "width": 4
         }
       ]
     },
     {
-      "narration": "Give the cat a cuddly body and a curly tail.",
-      "start": 29,
-      "end": 36,
+      "narration": "Two wheels! Draw a circle, and a smaller circle inside it. Then do it again.",
+      "start": 24,
+      "end": 31,
       "paths": [
         {
-          "d": "M130 430C100 500 105 560 150 570H250C295 560 300 500 270 430",
+          "d": "M65 400a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
           "stroke": "#023047"
         },
         {
-          "d": "M300 540q70 10 60 -60q-5 -30 -30 -25",
+          "d": "M85 400a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M255 400a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M275 400a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Time to color! A warm orange cat on a soft blue background.",
-      "start": 36,
-      "end": 42,
+      "narration": "Add a flashing light on the roof, a headlight, a stripe along the side, and the road.",
+      "start": 31,
+      "end": 40,
+      "paths": [
+        {
+          "d": "M288 236H302V250H288z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M336 362a7 7 0 1 0 14 0a7 7 0 1 0 -14 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M45 340H235",
+          "stroke": "#023047",
+          "width": 4
+        },
+        {
+          "d": "M10 435H390",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Time to color it in! A bright red fire truck with a yellow ladder, on a gray road.",
+      "start": 40,
+      "end": 46.3,
       "paths": [
         {
           "d": "M0 0h400v600h-400z",
-          "fill": "#d8f1ff"
+          "fill": "#bde0fe"
         },
         {
-          "d": "M130 430C100 500 105 560 150 570H250C295 560 300 500 270 430z",
-          "fill": "#f4a261"
+          "d": "M0 435h400v165h-400z",
+          "fill": "#6c757d"
         },
         {
-          "d": "M70 320a130 130 0 1 0 260 0a130 130 0 1 0 -260 0",
-          "fill": "#f4a261"
+          "d": "M30 300H350V380H30z",
+          "fill": "#d00000"
         },
         {
-          "d": "M95 243L90 120L170 194z",
-          "fill": "#f4a261"
+          "d": "M250 300L268 250H322L350 300z",
+          "fill": "#d00000"
         },
         {
-          "d": "M305 243L310 120L230 194z",
-          "fill": "#f4a261"
+          "d": "M277 262H315L333 292H277z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M45 255H235V275H45z",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M65 400a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#1d1d1d"
+        },
+        {
+          "d": "M255 400a35 35 0 1 0 70 0a35 35 0 1 0 -70 0",
+          "fill": "#1d1d1d"
+        },
+        {
+          "d": "M85 400a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M275 400a15 15 0 1 0 30 0a15 15 0 1 0 -30 0",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M288 236H302V250H288z",
+          "fill": "#ffba08"
+        },
+        {
+          "d": "M336 362a7 7 0 1 0 14 0a7 7 0 1 0 -14 0",
+          "fill": "#ffd60a"
         }
       ]
     }

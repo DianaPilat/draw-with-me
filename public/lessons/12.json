@@ -1,134 +1,125 @@
 {
   "id": "12",
-  "title": "Circle becomes a Ladybug",
-  "category": "Animals",
+  "title": "Rectangle becomes a Fire Station",
+  "category": "Things",
   "viewBox": "0 0 400 600",
   "steps": [
     {
-      "narration": "Let's draw a ladybug! Start with a big round circle for the body.",
+      "narration": "Let's draw a fire station! First, a big rectangle for the building.",
       "start": 0,
-      "end": 6,
+      "end": 7,
       "paths": [
         {
-          "d": "M80 330a120 120 0 1 0 240 0a120 120 0 1 0 -240 0",
+          "d": "M60 250H340V480H60z",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Add a half circle on top for the head.",
-      "start": 6,
+      "narration": "Now a triangle on top for the roof.",
+      "start": 7,
       "end": 12,
       "paths": [
         {
-          "d": "M140 226A60 55 0 0 1 260 226z",
+          "d": "M45 250L200 175L355 250z",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Two tiny eyes, and a straight line down the middle of the back.",
+      "narration": "Fire trucks need a big door! Draw a wide rectangle, then lines across it.",
       "start": 12,
-      "end": 18,
+      "end": 20,
       "paths": [
         {
-          "d": "M168 208a7 7 0 1 0 14 0a7 7 0 1 0 -14 0",
-          "stroke": "#023047",
-          "fill": "#fff"
+          "d": "M110 340H290V480H110z",
+          "stroke": "#023047"
         },
         {
-          "d": "M218 208a7 7 0 1 0 14 0a7 7 0 1 0 -14 0",
+          "d": "M110 368H290M110 396H290M110 424H290M110 452H290",
           "stroke": "#023047",
-          "fill": "#fff"
+          "width": 4
+        }
+      ]
+    },
+    {
+      "narration": "Add two square windows, and a round badge in the middle.",
+      "start": 20,
+      "end": 27,
+      "paths": [
+        {
+          "d": "M80 280H125V320H80z",
+          "stroke": "#023047"
         },
         {
-          "d": "M200 226V450",
+          "d": "M275 280H320V320H275z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M178 290a22 22 0 1 0 44 0a22 22 0 1 0 -44 0",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Now round spots on the wings.",
-      "start": 18,
-      "end": 24,
+      "narration": "Put a flag on the very top of the roof, and draw the ground.",
+      "start": 27,
+      "end": 34,
       "paths": [
         {
-          "d": "M130 300a20 20 0 1 0 40 0a20 20 0 1 0 -40 0",
-          "stroke": "#023047",
-          "fill": "#343a40"
-        },
-        {
-          "d": "M230 300a20 20 0 1 0 40 0a20 20 0 1 0 -40 0",
-          "stroke": "#023047",
-          "fill": "#343a40"
-        },
-        {
-          "d": "M139 385a16 16 0 1 0 32 0a16 16 0 1 0 -32 0",
-          "stroke": "#023047",
-          "fill": "#343a40"
-        },
-        {
-          "d": "M229 385a16 16 0 1 0 32 0a16 16 0 1 0 -32 0",
-          "stroke": "#023047",
-          "fill": "#343a40"
-        }
-      ]
-    },
-    {
-      "narration": "Two curly antennae, and three little legs on each side.",
-      "start": 24,
-      "end": 32,
-      "paths": [
-        {
-          "d": "M180 174Q170 130 140 115",
+          "d": "M200 175V125",
           "stroke": "#023047"
         },
         {
-          "d": "M220 174Q230 130 260 115",
+          "d": "M200 125H240V148H200z",
           "stroke": "#023047"
         },
         {
-          "d": "M87 290L45 270",
-          "stroke": "#023047"
-        },
-        {
-          "d": "M80 335L35 335",
-          "stroke": "#023047"
-        },
-        {
-          "d": "M93 385L55 410",
-          "stroke": "#023047"
-        },
-        {
-          "d": "M313 290L355 270",
-          "stroke": "#023047"
-        },
-        {
-          "d": "M320 335L365 335",
-          "stroke": "#023047"
-        },
-        {
-          "d": "M307 385L345 410",
+          "d": "M20 480H380",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Color time! A bright red ladybug on a green leaf.",
-      "start": 32,
-      "end": 38,
+      "narration": "Now color it in! A red fire station with a gray roof, under a blue sky.",
+      "start": 34,
+      "end": 40.1,
       "paths": [
         {
           "d": "M0 0h400v600h-400z",
-          "fill": "#b7e4c7"
+          "fill": "#bde0fe"
         },
         {
-          "d": "M80 330a120 120 0 1 0 240 0a120 120 0 1 0 -240 0",
-          "fill": "#e63946"
+          "d": "M0 480h400v120h-400z",
+          "fill": "#8ac926"
         },
         {
-          "d": "M140 226A60 55 0 0 1 260 226z",
-          "fill": "#343a40"
+          "d": "M60 250H340V480H60z",
+          "fill": "#d00000"
+        },
+        {
+          "d": "M45 250L200 175L355 250z",
+          "fill": "#495057"
+        },
+        {
+          "d": "M110 340H290V480H110z",
+          "fill": "#ced4da"
+        },
+        {
+          "d": "M80 280H125V320H80z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M275 280H320V320H275z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M178 290a22 22 0 1 0 44 0a22 22 0 1 0 -44 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M200 125H240V148H200z",
+          "fill": "#ffd60a"
         }
       ]
     }

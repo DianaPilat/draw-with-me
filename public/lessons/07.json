@@ -1,117 +1,129 @@
 {
   "id": "07",
-  "title": "Oval becomes a Duck",
-  "category": "Animals",
+  "title": "Rectangle becomes a Police Station",
+  "category": "Things",
   "viewBox": "0 0 400 600",
   "steps": [
     {
-      "narration": "Let's draw a duck! Start with a big wide oval for the body.",
+      "narration": "Let's draw a police station! First, a big rectangle for the building.",
       "start": 0,
-      "end": 6,
+      "end": 7,
       "paths": [
         {
-          "d": "M80 400a120 85 0 1 0 240 0a120 85 0 1 0 -240 0",
+          "d": "M50 250H350V480H50z",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Add a round head on the top right.",
-      "start": 6,
-      "end": 12,
+      "narration": "Draw a flat roof along the top, with a little light in the middle.",
+      "start": 7,
+      "end": 14,
       "paths": [
         {
-          "d": "M206 272a62 62 0 1 0 124 0a62 62 0 1 0 -124 0",
-          "stroke": "#023047"
-        }
-      ]
-    },
-    {
-      "narration": "Give the duck a pointy beak and a little round eye.",
-      "start": 12,
-      "end": 18,
-      "paths": [
-        {
-          "d": "M328 262Q372 268 374 282Q350 296 326 288",
+          "d": "M35 250V225H365V250",
           "stroke": "#023047"
         },
         {
-          "d": "M278 255a7 7 0 1 0 14 0a7 7 0 1 0 -14 0",
+          "d": "M185 205H215V225H185z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Add a door in the middle, and two square windows, one on each side.",
+      "start": 14,
+      "end": 21,
+      "paths": [
+        {
+          "d": "M170 380H230V480H170z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M80 290H140V340H80z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M260 290H320V340H260z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Draw a cross in each window, a shiny star above the door, and a round door handle.",
+      "start": 21,
+      "end": 29,
+      "paths": [
+        {
+          "d": "M110 290V340M80 315H140M290 290V340M260 315H320",
           "stroke": "#023047",
-          "fill": "#023047"
-        }
-      ]
-    },
-    {
-      "narration": "Draw a wing, and a pointy tail feather.",
-      "start": 18,
-      "end": 24,
-      "paths": [
+          "width": 4
+        },
         {
-          "d": "M150 390q40 -30 90 5q-30 45 -90 -5",
+          "d": "M200 272L207 290.3L226.6 291.4L211.4 303.7L216.5 322.7L200 312L183.5 322.7L188.6 303.7L173.4 291.4L193 290.3z",
           "stroke": "#023047"
         },
         {
-          "d": "M84 375L40 340L102 348",
+          "d": "M216 430a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
           "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Two little legs with flat feet for paddling.",
-      "start": 24,
-      "end": 30,
+      "narration": "Finish with the ground underneath.",
+      "start": 29,
+      "end": 33,
       "paths": [
         {
-          "d": "M175 485V530",
-          "stroke": "#fb8500",
-          "width": 8
-        },
-        {
-          "d": "M230 485V530",
-          "stroke": "#fb8500",
-          "width": 8
-        },
-        {
-          "d": "M152 532h42",
-          "stroke": "#fb8500",
-          "width": 8
-        },
-        {
-          "d": "M208 532h42",
-          "stroke": "#fb8500",
-          "width": 8
+          "d": "M20 480H380",
+          "stroke": "#023047"
         }
       ]
     },
     {
-      "narration": "Color time! A sunny yellow duck with an orange beak.",
-      "start": 30,
-      "end": 36,
+      "narration": "Now color it in! A blue police station with a gold star, under a blue sky.",
+      "start": 33,
+      "end": 39.2,
       "paths": [
         {
           "d": "M0 0h400v600h-400z",
-          "fill": "#d8f1ff"
+          "fill": "#bde0fe"
         },
         {
-          "d": "M80 400a120 85 0 1 0 240 0a120 85 0 1 0 -240 0",
+          "d": "M0 480h400v120h-400z",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M50 250H350V480H50z",
+          "fill": "#5aa9e6"
+        },
+        {
+          "d": "M35 250V225H365V250z",
+          "fill": "#adb5bd"
+        },
+        {
+          "d": "M185 205H215V225H185z",
+          "fill": "#e63946"
+        },
+        {
+          "d": "M170 380H230V480H170z",
+          "fill": "#1d3557"
+        },
+        {
+          "d": "M80 290H140V340H80z",
+          "fill": "#ffe08a"
+        },
+        {
+          "d": "M260 290H320V340H260z",
+          "fill": "#ffe08a"
+        },
+        {
+          "d": "M200 272L207 290.3L226.6 291.4L211.4 303.7L216.5 322.7L200 312L183.5 322.7L188.6 303.7L173.4 291.4L193 290.3z",
           "fill": "#ffd60a"
         },
         {
-          "d": "M84 375L40 340L102 348z",
+          "d": "M216 430a4 4 0 1 0 8 0a4 4 0 1 0 -8 0",
           "fill": "#ffd60a"
-        },
-        {
-          "d": "M206 272a62 62 0 1 0 124 0a62 62 0 1 0 -124 0",
-          "fill": "#ffd60a"
-        },
-        {
-          "d": "M150 390q40 -30 90 5q-30 45 -90 -5z",
-          "fill": "#ffc300"
-        },
-        {
-          "d": "M328 262Q372 268 374 282Q350 296 326 288z",
-          "fill": "#fb8500"
         }
       ]
     }
