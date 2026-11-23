@@ -1,0 +1,128 @@
+{
+  "id": "53",
+  "title": "Rectangle becomes a Garbage Truck Station",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a garbage truck station! First, a big rectangle for the building.",
+      "start": 0,
+      "end": 7,
+      "paths": [
+        {
+          "d": "M40 250H300V480H40z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now a flat roof on top.",
+      "start": 7,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M25 250V215H315V250z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Garbage trucks are big, so draw two wide doors, with lines across them.",
+      "start": 14,
+      "end": 21,
+      "paths": [
+        {
+          "d": "M65 340H165V480H65z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M175 340H275V480H175z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M65 385H165M65 430H165M175 385H275M175 430H275",
+          "stroke": "#023047",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "narration": "Above the doors, a round sign with a little triangle inside.",
+      "start": 21,
+      "end": 28,
+      "paths": [
+        {
+          "d": "M145 290a25 25 0 1 0 50 0a25 25 0 1 0 -50 0",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M170 275L182 297H158z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Next to the station, a trash bin! A tall shape that gets wider at the top, with a lid. Then the ground.",
+      "start": 28,
+      "end": 35.9,
+      "paths": [
+        {
+          "d": "M325 480L330 405H380L385 480z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M320 405V388H390V405z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M10 480H390",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now color it in! A green station, a gray bin, and a yellow sign, under a blue sky.",
+      "start": 35.9,
+      "end": 42.9,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#bde0fe"
+        },
+        {
+          "d": "M0 480h400v120h-400z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M40 250H300V480H40z",
+          "fill": "#52b788"
+        },
+        {
+          "d": "M25 250V215H315V250z",
+          "fill": "#2d6a4f"
+        },
+        {
+          "d": "M65 340H165V480H65z",
+          "fill": "#ced4da"
+        },
+        {
+          "d": "M175 340H275V480H175z",
+          "fill": "#ced4da"
+        },
+        {
+          "d": "M145 290a25 25 0 1 0 50 0a25 25 0 1 0 -50 0",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M325 480L330 405H380L385 480z",
+          "fill": "#6c757d"
+        },
+        {
+          "d": "M320 405V388H390V405z",
+          "fill": "#343a40"
+        }
+      ]
+    }
+  ],
+  "audio": "53.m4a"
+}

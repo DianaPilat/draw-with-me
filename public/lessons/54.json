@@ -1,0 +1,119 @@
+{
+  "id": "54",
+  "title": "Rectangle becomes a Taxi Station",
+  "category": "Things",
+  "viewBox": "0 0 400 600",
+  "steps": [
+    {
+      "narration": "Let's draw a taxi station! First, a rectangle for the building.",
+      "start": 0,
+      "end": 7,
+      "paths": [
+        {
+          "d": "M70 280H330V480H70z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "On top, a roof with slanted sides, like a flat hat.",
+      "start": 7,
+      "end": 14,
+      "paths": [
+        {
+          "d": "M55 280L90 230H310L345 280z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "In the middle of the roof, a little box for the taxi sign.",
+      "start": 14,
+      "end": 21,
+      "paths": [
+        {
+          "d": "M170 230V205H230V230z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now a door in the middle, and two square windows.",
+      "start": 21,
+      "end": 28,
+      "paths": [
+        {
+          "d": "M170 380H230V480H170z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M95 325H145V370H95z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M255 325H305V370H255z",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Taxis have a stripe! Draw a long thin rectangle across the wall. Then the ground.",
+      "start": 28,
+      "end": 35,
+      "paths": [
+        {
+          "d": "M70 290H330V310H70z",
+          "stroke": "#023047"
+        },
+        {
+          "d": "M20 480H380",
+          "stroke": "#023047"
+        }
+      ]
+    },
+    {
+      "narration": "Now color it in! A yellow station with a stripe, under a blue sky.",
+      "start": 35,
+      "end": 42,
+      "paths": [
+        {
+          "d": "M0 0h400v600h-400z",
+          "fill": "#bde0fe"
+        },
+        {
+          "d": "M0 480h400v120h-400z",
+          "fill": "#8ac926"
+        },
+        {
+          "d": "M70 280H330V480H70z",
+          "fill": "#ffd60a"
+        },
+        {
+          "d": "M55 280L90 230H310L345 280z",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M170 230V205H230V230z",
+          "fill": "#f8f9fa"
+        },
+        {
+          "d": "M170 380H230V480H170z",
+          "fill": "#343a40"
+        },
+        {
+          "d": "M95 325H145V370H95z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M255 325H305V370H255z",
+          "fill": "#a8dadc"
+        },
+        {
+          "d": "M70 290H330V310H70z",
+          "fill": "#343a40"
+        }
+      ]
+    }
+  ],
+  "audio": "54.m4a"
+}

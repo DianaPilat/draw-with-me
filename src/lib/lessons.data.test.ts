@@ -18,8 +18,8 @@ const index = Object.values(
 const lessons = Object.values(lessonFiles)
 
 describe('lesson index', () => {
-  it('lists 50 lessons with unique ids', () => {
-    expect(index).toHaveLength(50)
+  it('lists 57 lessons with unique ids', () => {
+    expect(index).toHaveLength(57)
     expect(new Set(index.map((l) => l.id)).size).toBe(index.length)
   })
 

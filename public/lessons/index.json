@@ -48,5 +48,12 @@
   { "id": "47", "title": "W becomes a Crown", "category": "Things" },
   { "id": "48", "title": "X becomes a Treasure Map", "category": "Things" },
   { "id": "49", "title": "Y becomes a Tree", "category": "Nature" },
-  { "id": "50", "title": "Z becomes a Lightning Bolt", "category": "Nature" }
+  { "id": "50", "title": "Z becomes a Lightning Bolt", "category": "Nature" },
+  { "id": "51", "title": "Rectangle becomes an Ambulance Station", "category": "Things" },
+  { "id": "52", "title": "Rectangle becomes an Ambulance", "category": "Vehicles" },
+  { "id": "53", "title": "Rectangle becomes a Garbage Truck Station", "category": "Things" },
+  { "id": "54", "title": "Rectangle becomes a Taxi Station", "category": "Things" },
+  { "id": "55", "title": "Rectangle becomes a Taxi", "category": "Vehicles" },
+  { "id": "56", "title": "Rectangle becomes a Bus", "category": "Vehicles" },
+  { "id": "57", "title": "Rectangle becomes a Police Car", "category": "Vehicles" }
 ]

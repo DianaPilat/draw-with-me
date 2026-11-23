@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/DianaPilat/draw-with-me/actions/workflows/ci.yml/badge.svg)](https://github.com/DianaPilat/draw-with-me/actions/workflows/ci.yml)
 
-An offline-first progressive web app (PWA) with 50 narrated drawing lessons for kids aged 5-8. Each lesson shows how to draw an animal, vehicle or other object, starting from a geometric shape, number or letter. Lessons are animated SVG drawings, not video, and are described in JSON. Each step has start and end times, and the picture is calculated from the audio's current time, so voice and drawing always stay in sync.
+An offline-first progressive web app (PWA) with 57 narrated drawing lessons for kids aged 5-8. Each lesson shows how to draw an animal, vehicle or other object, starting from a geometric shape, number or letter. Lessons are animated SVG drawings, not video, and are described in JSON. Each step has start and end times, and the picture is calculated from the audio's current time, so voice and drawing always stay in sync.
 
 Kids can step through one stage at a time (the default), play the whole lesson, replay, or draw along on a blank pad. The app works offline once loaded and can be installed to the Home Screen. It has no backend and collects no user data.
 
@@ -34,7 +34,7 @@ Kids can step through one stage at a time (the default), play the whole lesson, 
 
 **Step mode by default.** The player pauses at the end of each step (`pauseAt`), so a child can draw each stage before moving on. "Play all at once" turns it off.
 
-**Lessons are data, not code.** Adding a lesson means adding a JSON file and an entry in `index.json`. That is how the library grew to 50 lessons without code changes.
+**Lessons are data, not code.** Adding a lesson means adding a JSON file and an entry in `index.json`. That is how the library grew to 57 lessons without code changes.
 
 **Service worker for offline, `localStorage` for progress.** Content is fixed files, which a Workbox service worker precaches. The only user data is the list of finished lessons, which is small enough for `localStorage` (read defensively, since storage can be blocked). IndexedDB would add complexity without a use for it.
 
@@ -46,7 +46,7 @@ Kids can step through one stage at a time (the default), play the whole lesson, 
 
 ### Trade-offs and what I would change at scale
 
-- The service worker precaches every lesson and audio file (about 9 MB). That is fine for 50 lessons, but a larger library should cache lessons on demand or per category.
+- The service worker precaches every lesson and audio file (about 9 MB). That is fine for 57 lessons, but a larger library should cache lessons on demand or per category.
 - Progress lives only on one device. Syncing across devices would need accounts and a backend, which this app deliberately avoids.
 - Lesson paths are written by hand or by script. A larger library needs an authoring tool or import pipeline (see "Planned tooling").
 - The hook `useLessonPlayer` (step boundaries, `pauseAt`, replay, audio clock) has no unit tests yet. Its step-finding logic would need to be extracted into pure functions, or tested with a fake audio element and timers.
@@ -60,11 +60,11 @@ Kids can step through one stage at a time (the default), play the whole lesson, 
 | 2. Lesson engine: stroke animation, player controls, one sample lesson | Done                            |
 | 3. Five sample lessons with Piper voice-over                           | Done                            |
 | 4. Home screen with categories and progress stars                      | Done                            |
-| 5. Remaining lessons (50 total)                                        | Done                            |
+| 5. Remaining lessons (57 total)                                        | Done                            |
 | 6. iPhone polish, optional draw-along canvas                           | Done (tested on iPhone, Kindle) |
 | 7. Deploy to a static HTTPS host                                       | Done                            |
 
-All 50 lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock.
+All 57 lessons have a voice-over (Piper, en_GB-alba-medium) as an m4a file, and playback follows the audio clock.
 
 ## Requirements
 
